@@ -1,8 +1,8 @@
 MT 6000 custom build
 
 Here is listed the diffconfig
-
-'''CONFIG_TARGET_mediatek=y
+```
+CONFIG_TARGET_mediatek=y
 CONFIG_TARGET_mediatek_filogic=y
 CONFIG_TARGET_mediatek_filogic_DEVICE_glinet_gl-mt6000=y
 CONFIG_DEVEL=y
@@ -277,4 +277,5 @@ CONFIG_STRIP_KERNEL_EXPORTS=y
 CONFIG_TARGET_OPTIONS=y
 CONFIG_TESTING_KERNEL=y
 # CONFIG_PACKAGE_dnsmasq_full_dhcpv6 is not set
-# CONFIG_PACKAGE_kmod-crypto-kpp is not set'''
+# CONFIG_PACKAGE_kmod-crypto-kpp is not set
+```
