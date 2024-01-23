@@ -1,6 +1,6 @@
 adblock - 4.1.5-8
 avahi-dbus-daemon - 0.8-8
-base-files - 1560-r24885-7ad6e8c312
+base-files - 1560-r24889-039f8a1241
 blkid - 2.39.3-1
 busybox - 1.36.1-1
 ca-bundle - 20230311-1
@@ -32,7 +32,7 @@ iw - 5.19-1
 iwinfo - 2023-07-01-ca79f641-1
 jansson4 - 2.14-3
 jshn - 2023-12-04.1-ca3f6d0c-1
-jsonfilter - 2018-02-04-c7e938d6-1
+jsonfilter - 2024-01-23-594cfa86-1
 kernel - 6.1.74-1-4cea82ec68845256d326b848b0a0e224
 kmod-asn1-decoder - 6.1.74-1
 kmod-cfg80211 - 6.1.74+6.5-2
@@ -207,13 +207,13 @@ logd - 2024-01-22-6cf7d837-1
 lua - 5.1.5-10
 luci-app-adblock - git-24.021.51525-3d54783
 luci-app-firewall - git-24.021.51525-3d54783
-luci-app-ksmbd - git-24.021.51525-3d54783
+luci-app-ksmbd - git-24.022.76896-fe543de
 luci-app-openvpn - git-24.021.51525-3d54783
 luci-app-opkg - git-24.021.51525-3d54783
 luci-app-pbr - 1.1.1-7
 luci-app-sqm - git-24.021.51525-3d54783
 luci-app-vnstat2 - git-24.021.51525-3d54783
-luci-base - git-24.021.51525-3d54783
+luci-base - git-24.023.26952-a4fd238
 luci-compat - git-24.021.51525-3d54783
 luci-lib-base - git-24.021.51525-3d54783
 luci-lib-ip - git-24.021.51525-3d54783
@@ -233,6 +233,8 @@ mt7986-wo-firmware - 20231211-1
 mtd - 26
 netifd - 2024-01-04-f01345ec-1
 nftables-json - 1.0.9-1
+odhcp6c - 2023-05-12-bcd28363-20
+odhcpd-ipv6only - 2023-10-24-d8118f6e-1
 openssl-util - 3.0.12-1
 openvpn-openssl - 2.6.8-3
 openwrt-keyring - 2022-03-25-62471e69-2
@@ -280,7 +282,7 @@ usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
 vnstat2 - 2.11-1
 vnstati2 - 2.11-1
-wireguard-tools - 1.0.20210914-2
+wireguard-tools - 1.0.20210914-3
 wireless-regdb - 2023.09.01-1
 wpad-basic-openssl - 2023-09-08-e5ccbfc6-6
 wsdd2 - 2023-12-21-b676d8ac-1

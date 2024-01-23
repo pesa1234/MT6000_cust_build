@@ -136,19 +136,19 @@ SHA256sum: f3de49c605d1338871919f7a91be36b98e6c93a23a1e8cfab0788e1b119b4793
 Description:  LuCI support for irqbalance
 
 Package: luci-app-ksmbd
-Version: git-24.021.51525-3d54783
+Version: git-24.022.76896-fe543de
 Depends: libc, luci-base, ksmbd-server
 Source: feeds/luci/applications/luci-app-ksmbd
 SourceName: luci-app-ksmbd
 Section: luci
-SourceDateEpoch: 1705846725
+SourceDateEpoch: 1705958496
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-ksmbd_git-24.021.51525-3d54783_all.ipk
-Size: 3175
-SHA256sum: 202457a4b524ab96f27c3bf2eb3f6e7ee3c0e2b183ee3b2895646c8cc2c13c94
+Filename: luci-app-ksmbd_git-24.022.76896-fe543de_all.ipk
+Size: 3165
+SHA256sum: 6e5d711b668b590c738827975207c391f2f7f47df943bd821e2c767d5b9a78d2
 Description:  Network Shares - Ksmbd the SMB kernel fileserver
 
 Package: luci-app-minidlna
@@ -300,20 +300,20 @@ SHA256sum: 5c3164d4a100d6d8d874c2a3d14e4521a9f92b254851dde1dbad592e487ffd04
 Description:  Turns WiFi on and off according to a schedule
 
 Package: luci-base
-Version: git-24.021.51525-3d54783
+Version: git-24.023.26952-a4fd238
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1705846725
+SourceDateEpoch: 1705997631
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: aarch64_cortex-a53
 Installed-Size: 552960
-Filename: luci-base_git-24.021.51525-3d54783_aarch64_cortex-a53.ipk
-Size: 129307
-SHA256sum: 2679b59f1a33ed410b795b08e67e558d1ab365f72155b5576e55aef329ac158f
+Filename: luci-base_git-24.023.26952-a4fd238_aarch64_cortex-a53.ipk
+Size: 129296
+SHA256sum: bb500d2ce291794482fe27b215f7ef58269a23a60e407bec712b35c5e0efe61a
 Description:  LuCI core runtime
 
 Package: luci-compat

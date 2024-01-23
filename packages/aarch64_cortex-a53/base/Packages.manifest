@@ -35,8 +35,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 542720
 Filename: busybox_1.36.1-1_aarch64_cortex-a53.ipk
-Size: 240030
-SHA256sum: 2f40ea82d5fcd1be6132cff36fe2569596ec72694972506aff34db57dcbc8152
+Size: 240044
+SHA256sum: a23fde1f6722fe179b090166967ba1d63da43c0ebccd2cf8b571ed288f85e4ed
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -314,20 +314,20 @@ SHA256sum: 30094676093679602ce4cf1ed6565f93962aaa77cc455a65eec1d17921223a7f
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
-Version: 2018-02-04-c7e938d6-1
+Version: 2024-01-23-594cfa86-1
 Depends: libc, libubox202312041, libjson-c5
 Source: package/utils/jsonfilter
 SourceName: jsonfilter
 License: ISC
 Section: base
-SourceDateEpoch: 1645878990
+SourceDateEpoch: 1705997236
 URL: https://git.openwrt.org/project/jsonpath.git
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: jsonfilter_2018-02-04-c7e938d6-1_aarch64_cortex-a53.ipk
-Size: 11205
-SHA256sum: 0baeb4ad046c78bf17fc259e2a19fabb03ed5d5fca244c6c43611b0ac1822911
+Filename: jsonfilter_2024-01-23-594cfa86-1_aarch64_cortex-a53.ipk
+Size: 11215
+SHA256sum: d2a2b3d093473f428916f6c8ad0318abc9b50e3e0f5f057b2d786ce269dbe585
 Description:  OpenWrt JSON filter utility
 
 Package: libblkid1
@@ -470,8 +470,8 @@ Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: libelf1_0.189-1_aarch64_cortex-a53.ipk
-Size: 42843
-SHA256sum: bbb6e21bc351c1ff168510b2826b133b5f42756bf274fdb71b5df81ee8ac8ca9
+Size: 42829
+SHA256sum: a1d975b0786c8baa68ea3d3c807362013392967b25581116635182c683d13e1b
 Description:  ELF manipulation libraries (libelf)
 
 Package: libext2fs2
@@ -969,8 +969,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 5273600
 Filename: libopenssl3_3.0.12-1_aarch64_cortex-a53.ipk
-Size: 2006867
-SHA256sum: 116e9b69aa578cff9fc6c90ec871d8f700c4870bb1173c911f1cbdec25395c81
+Size: 2006826
+SHA256sum: fc3648a6653e66ec62dec43fca38c0ef7c23d14aad0481873973844417766d13
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1436,6 +1436,44 @@ Filename: nftables-json_1.0.9-1_aarch64_cortex-a53.ipk
 Size: 310238
 SHA256sum: ce2ba4acc0c3bdeba7418976c88c3b19455b25f0ee86d21072ca8be78277180f
 Description:  nftables userspace utility with JSON support
+
+Package: odhcp6c
+Version: 2023-05-12-bcd28363-20
+Depends: libc, libubox202312041
+Source: package/network/ipv6/odhcp6c
+SourceName: odhcp6c
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1683890390
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: odhcp6c_2023-05-12-bcd28363-20_aarch64_cortex-a53.ipk
+Size: 28420
+SHA256sum: 3d9f4ccec5938f094d4519bed837afbb73dd76ea67b51cc6a2b557a85ab448ac
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd-ipv6only
+Version: 2023-10-24-d8118f6e-1
+Depends: libc, libubox202312041, libuci20130104, libubus20231128, libnl-tiny1
+Source: package/network/services/odhcpd
+SourceName: odhcpd
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1698528812
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: odhcpd-ipv6only_2023-10-24-d8118f6e-1_aarch64_cortex-a53.ipk
+Size: 45745
+SHA256sum: 6f8fa76ea389f94f21f6c23a62053d24b020ae837b4ea58960b4b05363b4b43d
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
 
 Package: openssl-util
 Version: 3.0.12-1
@@ -2054,21 +2092,21 @@ SHA256sum: 77725fa374aaf83bd22d16946a720f51f42a013807f4b0b90c6fe4b6025f15be
 Description:  OpenWrt signature verification utility
 
 Package: wireguard-tools
-Version: 1.0.20210914-2
+Version: 1.0.20210914-3
 Depends: libc, kmod-wireguard
 Source: package/network/utils/wireguard-tools
 SourceName: wireguard-tools
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1684402529
+SourceDateEpoch: 1705997975
 URL: https://www.wireguard.com
 Maintainer: Jason A. Donenfeld <Jason@zx2c4.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: wireguard-tools_1.0.20210914-2_aarch64_cortex-a53.ipk
-Size: 28857
-SHA256sum: 559cd73dad0d210c01bb15dc7e4eb5b1e6e377942b4d0344528b741afb326659
+Filename: wireguard-tools_1.0.20210914-3_aarch64_cortex-a53.ipk
+Size: 28849
+SHA256sum: 1d63ec719a2136d2e9b4e6411eedd3652a4f2cddf5d1bec11b2658d699b84f9e
 Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
  state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
  more useful than IPSec, while avoiding the massive headache. It intends to

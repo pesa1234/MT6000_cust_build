@@ -1,14 +1,14 @@
 Package: base-files
-Version: 1560-r24885-7ad6e8c312
+Version: 1560-r24889-039f8a1241
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 License: GPL-2.0
 Section: base
 URL: http://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 307200
-Filename: base-files_1560-r24885-7ad6e8c312_aarch64_cortex-a53.ipk
-Size: 64126
-SHA256sum: 1c6d962e7222de8b239232f8c8410602adb96636285e1e38859dec1fc9f18844
+Filename: base-files_1560-r24889-039f8a1241_aarch64_cortex-a53.ipk
+Size: 64133
+SHA256sum: 73e0c6f71e29406069eca7b17d5d4f845aa85bdec129791f4c4325a06ae98965
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: comgt

@@ -566,8 +566,8 @@ URL: https://www.libjpeg-turbo.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 337920
 Filename: libjpeg-turbo_2.1.4-2_aarch64_cortex-a53.ipk
-Size: 112502
-SHA256sum: 1dd361beef60e291f0ac7cfe94d9b4bc1f86716ce5625d9812c54aa9385f1e47
+Size: 112504
+SHA256sum: d3ecb5b10fd6082f63b62b7313a9f4aaab6ed9c151fb8b965294bf59135181a1
 Description:  libjpeg-turbo is a speed focused fork of libjpeg.
 
 Package: liblz4-1
@@ -849,7 +849,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-nftables_2.3.3-2_aarch64_cortex-a53.ipk
 Size: 88423
-SHA256sum: c4feba1ce6ea27bc5c80d1ba1439d527b61ef44ed1fc65912b72473c592cd647
+SHA256sum: 078da5bf491f5e8e8570555d754b6fbf9f3c3d271879a4b1902d0ca577a05c4a
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon (nftables)
 
 Package: openvpn-openssl
@@ -893,8 +893,8 @@ CPE-ID: cpe:/a:samba:samba
 Architecture: aarch64_cortex-a53
 Installed-Size: 38799360
 Filename: samba4-libs_4.18.8-1_aarch64_cortex-a53.ipk
-Size: 9120668
-SHA256sum: a77c288be9db9d8bdb81a9cbd79461b5447f2377ffbefc0f4f42aa3b6afbf380
+Size: 9121154
+SHA256sum: 838eb0f61d8fd4bb98c762e9884acc4fbeb9678a734574af82a9c78443bc141a
 Description:  Samba 4.18.8 libs
 
 Package: samba4-server
@@ -908,8 +908,8 @@ CPE-ID: cpe:/a:samba:samba
 Architecture: aarch64_cortex-a53
 Installed-Size: 983040
 Filename: samba4-server_4.18.8-1_aarch64_cortex-a53.ipk
-Size: 250694
-SHA256sum: 7d567b8593e096e3ee69ae3d47e34724470eef142a6f0434f7bb329b9c7cb677
+Size: 250716
+SHA256sum: da7a53f9a6978acbc247cab3748489475cf00c0bbfb47a74167f036d58ae6cdb
 Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
  (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
  
