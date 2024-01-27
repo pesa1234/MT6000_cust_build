@@ -1,7 +1,17 @@
-MT 6000 custom build with testing kernel 6.1.
+GL.iNET - MT 6000 custom build with LuCi.
 
 What is present?
-WED enabled, LuCi installed, ksmbd server with automount, openvpn, adblock, wireguard, pbr etc...
+- WED enabled
+- LuCi installed
+- ksmbd server with automount
+- openvpn-openssl
+- adblock
+- wireguard
+- PBR
+- irqbalance activated
+- latest testing kernel 6.1.x
+
+Compiled to optimize speed
 
 How To Install?
 From web interface of GL.iNET or actual openwrt flash sysupgrade.
@@ -13,7 +23,7 @@ Package list of already installed packages.
 ```
 adblock - 4.1.5-8
 avahi-dbus-daemon - 0.8-8
-base-files - 1560-r24889-039f8a1241
+base-files - 1560-r24928-e5efc638a7
 blkid - 2.39.3-1
 busybox - 1.36.1-1
 ca-bundle - 20230311-1
@@ -28,21 +38,22 @@ dbus - 1.14.10-1
 dnsmasq-full - 2.89-7
 dropbear - 2022.82-5
 e2fsprogs - 1.47.0-2
-eip197-mini-firmware - 20231211-1
+eip197-mini-firmware - 20231211-2
 f2fs-tools - 1.16.0-2
 f2fsck - 1.16.0-2
 firewall4 - 2023-11-03-698a5335-1
 fstools - 2024-01-22-08cd7083-1
 fwtool - 2019-11-12-8f7fe925-1
-getrandom - 2024-01-22-6cf7d837-1
+getrandom - 2024-01-24-2c5887cb-1
 hostapd-common - 2023-09-08-e5ccbfc6-6
-ip-full - 6.6.0-1
+ip-full - 6.7.0-1
 ip6tables-nft - 1.8.8-2
 iperf3 - 3.16-1
 iptables-mod-ipopt - 1.8.8-2
 iptables-nft - 1.8.8-2
+irqbalance - 1.9.3-2
 iw - 5.19-1
-iwinfo - 2023-07-01-ca79f641-1
+iwinfo - 2023-11-19-a34977c0-1
 jansson4 - 2.14-3
 jshn - 2023-12-04.1-ca3f6d0c-1
 jsonfilter - 2024-01-23-594cfa86-1
@@ -168,8 +179,8 @@ libiperf3 - 3.16-1
 libiptext-nft0 - 1.8.8-2
 libiptext0 - 1.8.8-2
 libiptext6-0 - 1.8.8-2
-libiwinfo-data - 2023-07-01-ca79f641-1
-libiwinfo20230701 - 2023-07-01-ca79f641-1
+libiwinfo-data - 2023-11-19-a34977c0-1
+libiwinfo20230701 - 2023-11-19-a34977c0-1
 libjpeg-turbo - 2.1.4-2
 libjson-c5 - 0.17-1
 libjson-script202312041 - 2023-12-04.1-ca3f6d0c-1
@@ -216,17 +227,18 @@ libuuid1 - 2.39.3-1
 libwebp - 1.3.2-1
 libxtables12 - 1.8.8-2
 lm-sensors - 3.6.0-1
-logd - 2024-01-22-6cf7d837-1
+logd - 2024-01-24-2c5887cb-1
 lua - 5.1.5-10
 luci-app-adblock - git-24.021.51525-3d54783
 luci-app-firewall - git-24.021.51525-3d54783
+luci-app-irqbalance - git-24.021.51525-3d54783
 luci-app-ksmbd - git-24.022.76896-fe543de
-luci-app-openvpn - git-24.021.51525-3d54783
+luci-app-openvpn - git-24.024.02596-9889d3f
 luci-app-opkg - git-24.021.51525-3d54783
 luci-app-pbr - 1.1.1-7
 luci-app-sqm - git-24.021.51525-3d54783
 luci-app-vnstat2 - git-24.021.51525-3d54783
-luci-base - git-24.023.26952-a4fd238
+luci-base - git-24.025.10336-0617d30
 luci-compat - git-24.021.51525-3d54783
 luci-lib-base - git-24.021.51525-3d54783
 luci-lib-ip - git-24.021.51525-3d54783
@@ -234,7 +246,7 @@ luci-lib-jsonc - git-24.021.51525-3d54783
 luci-lib-nixio - git-24.021.51525-3d54783
 luci-lua-runtime - git-24.021.51525-3d54783
 luci-mod-admin-full - git-24.021.51525-3d54783
-luci-mod-network - git-24.021.51525-3d54783
+luci-mod-network - git-24.026.05172-0c27557
 luci-mod-status - git-24.021.51525-3d54783
 luci-mod-system - git-24.021.51525-3d54783
 luci-proto-3g - git-24.021.51525-3d54783
@@ -242,7 +254,7 @@ luci-proto-ppp - git-24.021.51525-3d54783
 luci-proto-wireguard - git-24.021.51525-3d54783
 luci-theme-bootstrap - git-24.021.51525-3d54783
 mkf2fs - 1.16.0-2
-mt7986-wo-firmware - 20231211-1
+mt7986-wo-firmware - 20231211-2
 mtd - 26
 netifd - 2024-01-04-f01345ec-1
 nftables-json - 1.0.9-1
@@ -264,15 +276,15 @@ rpcd-mod-file - 2023-07-01-c07ab2f9-1
 rpcd-mod-iwinfo - 2023-07-01-c07ab2f9-1
 rpcd-mod-luci - 20230123-1
 rpcd-mod-ucode - 2023-07-01-c07ab2f9-1
-rtl8192cu-firmware - 20231211-1
+rtl8192cu-firmware - 20231211-2
 sqm-scripts - 1.6.0-1
 sysfsutils - 2.1.0-4
-tc-tiny - 6.6.0-1
+tc-tiny - 6.7.0-1
 tcpdump-mini - 4.99.4-1
 terminfo - 6.4-2
 ubi-utils - 2.1.6-1
 uboot-envtools - 2023.07.02-3
-ubox - 2024-01-22-6cf7d837-1
+ubox - 2024-01-24-2c5887cb-1
 ubus - 2023-11-28-f84eb599-1
 ubusd - 2023-11-28-f84eb599-1
 uci - 2023-08-10-5781664d-1
@@ -301,6 +313,7 @@ wpad-basic-openssl - 2023-09-08-e5ccbfc6-6
 wsdd2 - 2023-12-21-b676d8ac-1
 xtables-nft - 1.8.8-2
 zlib - 1.3-1
+
 ```
 
 Here is listed the diffconfig
@@ -376,7 +389,7 @@ CONFIG_PACKAGE_ip6tables-nft=y
 CONFIG_PACKAGE_iperf3=y
 CONFIG_PACKAGE_iptables-mod-ipopt=y
 CONFIG_PACKAGE_iptables-nft=y
-CONFIG_PACKAGE_irqbalance=m
+CONFIG_PACKAGE_irqbalance=y
 CONFIG_PACKAGE_kmod-asn1-decoder=y
 CONFIG_PACKAGE_kmod-crypto-crc32=y
 CONFIG_PACKAGE_kmod-crypto-ecb=y
@@ -503,7 +516,7 @@ CONFIG_PACKAGE_luci-app-adblock=y
 CONFIG_PACKAGE_luci-app-adblock-fast=m
 CONFIG_PACKAGE_luci-app-firewall=y
 CONFIG_PACKAGE_luci-app-hd-idle=m
-CONFIG_PACKAGE_luci-app-irqbalance=m
+CONFIG_PACKAGE_luci-app-irqbalance=y
 CONFIG_PACKAGE_luci-app-ksmbd=y
 CONFIG_PACKAGE_luci-app-minidlna=m
 CONFIG_PACKAGE_luci-app-openvpn=y
@@ -575,6 +588,7 @@ CONFIG_SQLITE3_FTS4=y
 CONFIG_SQLITE3_FTS5=y
 CONFIG_SQLITE3_RTREE=y
 CONFIG_STRIP_KERNEL_EXPORTS=y
+CONFIG_TARGET_OPTIMIZATION="-O2 -pipe -mcpu=cortex-a53"
 CONFIG_TARGET_OPTIONS=y
 CONFIG_TESTING_KERNEL=y
 # CONFIG_PACKAGE_dnsmasq_full_dhcpv6 is not set
