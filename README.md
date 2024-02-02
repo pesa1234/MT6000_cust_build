@@ -21,298 +21,297 @@ In any case you need a package, just ask.
 Package list of already installed packages.
 
 ```
-adblock - 4.1.5-8
-avahi-dbus-daemon - 0.8-8
-base-files - 1560-r24928-e5efc638a7
-blkid - 2.39.3-1
-busybox - 1.36.1-1
-ca-bundle - 20230311-1
-cgi-io - 2022-08-10-901b0f04-21
-chat - 2.4.9.git-2021-01-04-5
-comgt - 0.32-35
-coreutils - 9.3-1
-coreutils-sort - 9.3-1
-coreutils-stat - 9.3-1
-curl - 8.5.0-1
-dbus - 1.14.10-1
-dnsmasq-full - 2.89-7
-dropbear - 2022.82-5
-e2fsprogs - 1.47.0-2
-eip197-mini-firmware - 20231211-2
-f2fs-tools - 1.16.0-2
-f2fsck - 1.16.0-2
-firewall4 - 2023-11-03-698a5335-1
-fstools - 2024-01-22-08cd7083-1
-fwtool - 2019-11-12-8f7fe925-1
-getrandom - 2024-01-24-2c5887cb-1
-hostapd-common - 2023-09-08-e5ccbfc6-6
-ip-full - 6.7.0-1
-ip6tables-nft - 1.8.8-2
-iperf3 - 3.16-1
-iptables-mod-ipopt - 1.8.8-2
-iptables-nft - 1.8.8-2
-irqbalance - 1.9.3-2
-iw - 5.19-1
-iwinfo - 2023-11-19-a34977c0-1
-jansson4 - 2.14-3
-jshn - 2023-12-04.1-ca3f6d0c-1
-jsonfilter - 2024-01-23-594cfa86-1
-kernel - 6.1.74-1-4cea82ec68845256d326b848b0a0e224
-kmod-asn1-decoder - 6.1.74-1
-kmod-cfg80211 - 6.1.74+6.5-2
-kmod-crypto-aead - 6.1.74-1
-kmod-crypto-authenc - 6.1.74-1
-kmod-crypto-ccm - 6.1.74-1
-kmod-crypto-cmac - 6.1.74-1
-kmod-crypto-crc32 - 6.1.74-1
-kmod-crypto-crc32c - 6.1.74-1
-kmod-crypto-ctr - 6.1.74-1
-kmod-crypto-des - 6.1.74-1
-kmod-crypto-ecb - 6.1.74-1
-kmod-crypto-gcm - 6.1.74-1
-kmod-crypto-gf128 - 6.1.74-1
-kmod-crypto-ghash - 6.1.74-1
-kmod-crypto-hash - 6.1.74-1
-kmod-crypto-hmac - 6.1.74-1
-kmod-crypto-hw-safexcel - 6.1.74-1
-kmod-crypto-lib-chacha20 - 6.1.74-1
-kmod-crypto-lib-chacha20poly1305 - 6.1.74-1
-kmod-crypto-lib-curve25519 - 6.1.74-1
-kmod-crypto-lib-poly1305 - 6.1.74-1
-kmod-crypto-manager - 6.1.74-1
-kmod-crypto-md4 - 6.1.74-1
-kmod-crypto-md5 - 6.1.74-1
-kmod-crypto-null - 6.1.74-1
-kmod-crypto-rng - 6.1.74-1
-kmod-crypto-seqiv - 6.1.74-1
-kmod-crypto-sha1 - 6.1.74-1
-kmod-crypto-sha256 - 6.1.74-1
-kmod-crypto-sha512 - 6.1.74-1
-kmod-cryptodev - 6.1.74+1.12-mediatek-1
-kmod-fs-exfat - 6.1.74-1
-kmod-fs-ext4 - 6.1.74-1
-kmod-fs-f2fs - 6.1.74-1
-kmod-fs-ksmbd - 6.1.74-1
-kmod-fs-ntfs3 - 6.1.74-1
-kmod-fs-smbfs-common - 6.1.74-1
-kmod-fs-vfat - 6.1.74-1
-kmod-gpio-button-hotplug - 6.1.74-3
-kmod-hwmon-core - 6.1.74-1
-kmod-ifb - 6.1.74-1
-kmod-ip6tables - 6.1.74-1
-kmod-ipt-core - 6.1.74-1
-kmod-ipt-ipopt - 6.1.74-1
-kmod-leds-gpio - 6.1.74-1
-kmod-lib-crc-ccitt - 6.1.74-1
-kmod-lib-crc16 - 6.1.74-1
-kmod-lib-crc32c - 6.1.74-1
-kmod-mac80211 - 6.1.74+6.5-2
-kmod-mt76-connac - 6.1.74+2024-01-18-f7718816-1
-kmod-mt76-core - 6.1.74+2024-01-18-f7718816-1
-kmod-mt7915e - 6.1.74+2024-01-18-f7718816-1
-kmod-mt7986-firmware - 6.1.74+2024-01-18-f7718816-1
-kmod-nf-conntrack - 6.1.74-1
-kmod-nf-conntrack-netlink - 6.1.74-1
-kmod-nf-conntrack6 - 6.1.74-1
-kmod-nf-flow - 6.1.74-1
-kmod-nf-ipt - 6.1.74-1
-kmod-nf-ipt6 - 6.1.74-1
-kmod-nf-log - 6.1.74-1
-kmod-nf-log6 - 6.1.74-1
-kmod-nf-nat - 6.1.74-1
-kmod-nf-reject - 6.1.74-1
-kmod-nf-reject6 - 6.1.74-1
-kmod-nfnetlink - 6.1.74-1
-kmod-nft-compat - 6.1.74-1
-kmod-nft-core - 6.1.74-1
-kmod-nft-fib - 6.1.74-1
-kmod-nft-nat - 6.1.74-1
-kmod-nft-offload - 6.1.74-1
-kmod-nls-base - 6.1.74-1
-kmod-nls-cp437 - 6.1.74-1
-kmod-nls-iso8859-1 - 6.1.74-1
-kmod-nls-utf8 - 6.1.74-1
-kmod-oid-registry - 6.1.74-1
-kmod-ppp - 6.1.74-1
-kmod-pppoe - 6.1.74-1
-kmod-pppox - 6.1.74-1
-kmod-rtl8192c-common - 6.1.74+6.5-2
-kmod-rtl8192cu - 6.1.74+6.5-2
-kmod-rtlwifi - 6.1.74+6.5-2
-kmod-rtlwifi-usb - 6.1.74+6.5-2
-kmod-sched-cake - 6.1.74-1
-kmod-sched-core - 6.1.74-1
-kmod-scsi-core - 6.1.74-1
-kmod-slhc - 6.1.74-1
-kmod-thermal - 6.1.74-1
-kmod-tun - 6.1.74-1
-kmod-udptunnel4 - 6.1.74-1
-kmod-udptunnel6 - 6.1.74-1
-kmod-usb-core - 6.1.74-1
-kmod-usb-storage - 6.1.74-1
-kmod-usb-xhci-hcd - 6.1.74-1
-kmod-usb-xhci-mtk - 6.1.74-1
-kmod-usb3 - 6.1.74-1
-kmod-wireguard - 6.1.74-1
-ksmbd-avahi-service - 3.5.1-1
-ksmbd-server - 3.5.1-1
-libatomic1 - 12.3.0-4
-libavahi-dbus-support - 0.8-8
-libblkid1 - 2.39.3-1
-libblobmsg-json202312041 - 2023-12-04.1-ca3f6d0c-1
-libbpf1 - 1.3.0-1
-libc - 1.2.4-4
-libcap-ng - 0.8.3-2
-libcomerr0 - 1.47.0-2
-libcurl4 - 8.5.0-1
-libdaemon - 0.14-5
-libdbus - 1.14.10-1
-libelf1 - 0.189-1
-libevdev - 1.13.0-1
-libexpat - 2.5.0-1
-libext2fs2 - 1.47.0-2
-libf2fs6 - 1.16.0-2
-libgcc1 - 12.3.0-4
-libgd - 2.3.3-1
-libgmp10 - 6.3.0-1
-libiperf3 - 3.16-1
-libiptext-nft0 - 1.8.8-2
-libiptext0 - 1.8.8-2
-libiptext6-0 - 1.8.8-2
-libiwinfo-data - 2023-11-19-a34977c0-1
-libiwinfo20230701 - 2023-11-19-a34977c0-1
-libjpeg-turbo - 2.1.4-2
-libjson-c5 - 0.17-1
-libjson-script202312041 - 2023-12-04.1-ca3f6d0c-1
-liblua5.1.5 - 5.1.5-10
-liblucihttp-lua - 2023-03-15-9b5b683f-1
-liblucihttp-ucode - 2023-03-15-9b5b683f-1
-liblucihttp0 - 2023-03-15-9b5b683f-1
-liblz4-1 - 1.9.4-1
-liblzo2 - 2.10-4
-libmbedtls12 - 2.28.5-2
-libmnl0 - 1.0.5-1
-libncurses6 - 6.4-2
-libnetfilter-conntrack3 - 1.0.9-2
-libnettle8 - 3.9.1-1
-libnfnetlink0 - 1.0.2-1
-libnftnl11 - 1.2.6-1
-libnghttp2-14 - 1.57.0-1
-libnl-core200 - 3.9.0-1
-libnl-genl200 - 3.9.0-1
-libnl-tiny1 - 2023-12-05-965c4bf4-1
-libopenssl-conf - 3.0.12-1
-libopenssl-devcrypto - 3.0.12-1
-libopenssl-legacy - 3.0.12-1
-libopenssl3 - 3.0.12-1
-libpcap1 - 1.10.4-1
-libpng - 1.6.39-1
-libpthread - 1.2.4-4
-librt - 1.2.4-4
-libsensors5 - 3.6.0-1
-libsqlite3-0 - 3410200-1
-libss2 - 1.47.0-2
-libsysfs2 - 2.1.0-4
-libubox202312041 - 2023-12-04.1-ca3f6d0c-1
-libubus-lua - 2023-11-28-f84eb599-1
-libubus20231128 - 2023-11-28-f84eb599-1
-libuci20130104 - 2023-08-10-5781664d-1
-libuclient20201210 - 2023-04-13-007d9454-1
-libucode20230711 - 2023-11-30-6e89b89e-1
-libudebug - 2023-12-06-6d3f51f9
-libudev-zero - 1.0.3-1
-libusb-1.0-0 - 1.0.26-3
-libustream-mbedtls20201210 - 2023-11-26-263b9a97-1
-libuuid1 - 2.39.3-1
-libwebp - 1.3.2-1
-libxtables12 - 1.8.8-2
-lm-sensors - 3.6.0-1
-logd - 2024-01-24-2c5887cb-1
-lua - 5.1.5-10
-luci-app-adblock - git-24.021.51525-3d54783
-luci-app-firewall - git-24.021.51525-3d54783
-luci-app-irqbalance - git-24.021.51525-3d54783
-luci-app-ksmbd - git-24.022.76896-fe543de
-luci-app-openvpn - git-24.024.02596-9889d3f
-luci-app-opkg - git-24.021.51525-3d54783
-luci-app-pbr - 1.1.1-7
-luci-app-sqm - git-24.021.51525-3d54783
-luci-app-vnstat2 - git-24.021.51525-3d54783
-luci-base - git-24.025.10336-0617d30
-luci-compat - git-24.021.51525-3d54783
-luci-lib-base - git-24.021.51525-3d54783
-luci-lib-ip - git-24.021.51525-3d54783
-luci-lib-jsonc - git-24.021.51525-3d54783
-luci-lib-nixio - git-24.021.51525-3d54783
-luci-lua-runtime - git-24.021.51525-3d54783
-luci-mod-admin-full - git-24.021.51525-3d54783
-luci-mod-network - git-24.026.05172-0c27557
-luci-mod-status - git-24.021.51525-3d54783
-luci-mod-system - git-24.021.51525-3d54783
-luci-proto-3g - git-24.021.51525-3d54783
-luci-proto-ppp - git-24.021.51525-3d54783
-luci-proto-wireguard - git-24.021.51525-3d54783
-luci-theme-bootstrap - git-24.021.51525-3d54783
-mkf2fs - 1.16.0-2
-mt7986-wo-firmware - 20231211-2
-mtd - 26
-netifd - 2024-01-04-f01345ec-1
-nftables-json - 1.0.9-1
-odhcp6c - 2023-05-12-bcd28363-20
-odhcpd-ipv6only - 2023-10-24-d8118f6e-1
-openssl-util - 3.0.12-1
-openvpn-openssl - 2.6.8-3
-openwrt-keyring - 2022-03-25-62471e69-2
-opkg - 2022-02-24-d038e5b6-2
-pbr - 1.1.1-7
-ppp - 2.4.9.git-2021-01-04-5
-ppp-mod-pppoe - 2.4.9.git-2021-01-04-5
-procd - 2023-11-28-7e6c6efd-1
-procd-seccomp - 2023-11-28-7e6c6efd-1
-procd-ujail - 2023-11-28-7e6c6efd-1
-resolveip - 2
-rpcd - 2023-07-01-c07ab2f9-1
-rpcd-mod-file - 2023-07-01-c07ab2f9-1
-rpcd-mod-iwinfo - 2023-07-01-c07ab2f9-1
-rpcd-mod-luci - 20230123-1
-rpcd-mod-ucode - 2023-07-01-c07ab2f9-1
-rtl8192cu-firmware - 20231211-2
-sqm-scripts - 1.6.0-1
-sysfsutils - 2.1.0-4
-tc-tiny - 6.7.0-1
-tcpdump-mini - 4.99.4-1
-terminfo - 6.4-2
-ubi-utils - 2.1.6-1
-uboot-envtools - 2023.07.02-3
-ubox - 2024-01-24-2c5887cb-1
-ubus - 2023-11-28-f84eb599-1
-ubusd - 2023-11-28-f84eb599-1
-uci - 2023-08-10-5781664d-1
-uclient-fetch - 2023-04-13-007d9454-1
-ucode - 2023-11-30-6e89b89e-1
-ucode-mod-fs - 2023-11-30-6e89b89e-1
-ucode-mod-html - 1
-ucode-mod-lua - 1
-ucode-mod-math - 2023-11-30-6e89b89e-1
-ucode-mod-nl80211 - 2023-11-30-6e89b89e-1
-ucode-mod-rtnl - 2023-11-30-6e89b89e-1
-ucode-mod-ubus - 2023-11-30-6e89b89e-1
-ucode-mod-uci - 2023-11-30-6e89b89e-1
-ucode-mod-uloop - 2023-11-30-6e89b89e-1
-uhttpd - 2023-06-25-34a8a74d-2
-uhubctl - 2.5.0-1
-urandom-seed - 3
-urngd - 2023-11-01-44365eb1-1
-usbutils - 014-1
-usign - 2020-05-23-f1f65026-1
-vnstat2 - 2.11-1
-vnstati2 - 2.11-1
-wireguard-tools - 1.0.20210914-3
-wireless-regdb - 2023.09.01-1
-wpad-basic-openssl - 2023-09-08-e5ccbfc6-6
-wsdd2 - 2023-12-21-b676d8ac-1
-xtables-nft - 1.8.8-2
-zlib - 1.3-1
+adblock
+avahi-dbus-daemon
+base-files
+blkid
+busybox
+ca-bundle
+cgi-io
+chat
+comgt
+coreutils
+coreutils-sort
+coreutils-stat
+curl
+dbus
+dnsmasq-full
+dropbear
+e2fsprogs
+eip197-mini-firmware
+f2fs-tools
+f2fsck
+firewall4
+fstools
+fwtool
+getrandom
+hostapd-common
+ip-full
+ip6tables-nft
+iperf3
+iptables-mod-ipopt
+iptables-nft
+irqbalance
+iw
+iwinfo
+jansson4
+jshn
+jsonfilter
+kmod-asn1-decoder
+kmod-cfg80211
+kmod-crypto-aead
+kmod-crypto-authenc
+kmod-crypto-ccm
+kmod-crypto-cmac
+kmod-crypto-crc32
+kmod-crypto-crc32c
+kmod-crypto-ctr
+kmod-crypto-des
+kmod-crypto-ecb
+kmod-crypto-gcm
+kmod-crypto-gf128
+kmod-crypto-ghash
+kmod-crypto-hash
+kmod-crypto-hmac
+kmod-crypto-hw-safexcel
+kmod-crypto-lib-chacha20
+kmod-crypto-lib-chacha20poly1305
+kmod-crypto-lib-curve25519
+kmod-crypto-lib-poly1305
+kmod-crypto-manager
+kmod-crypto-md4
+kmod-crypto-md5
+kmod-crypto-null
+kmod-crypto-rng
+kmod-crypto-seqiv
+kmod-crypto-sha1
+kmod-crypto-sha256
+kmod-crypto-sha512
+kmod-cryptodev
+kmod-fs-exfat
+kmod-fs-ext4
+kmod-fs-f2fs
+kmod-fs-ksmbd
+kmod-fs-ntfs3
+kmod-fs-smbfs-common
+kmod-fs-vfat
+kmod-gpio-button-hotplug
+kmod-hwmon-core
+kmod-ifb
+kmod-ip6tables
+kmod-ipt-core
+kmod-ipt-ipopt
+kmod-leds-gpio
+kmod-lib-crc-ccitt
+kmod-lib-crc16
+kmod-lib-crc32c
+kmod-mac80211
+kmod-mt76-connac
+kmod-mt76-core
+kmod-mt7915e
+kmod-mt7986-firmware
+kmod-nf-conntrack
+kmod-nf-conntrack-netlink
+kmod-nf-conntrack6
+kmod-nf-flow
+kmod-nf-ipt
+kmod-nf-ipt6
+kmod-nf-log
+kmod-nf-log6
+kmod-nf-nat
+kmod-nf-reject
+kmod-nf-reject6
+kmod-nfnetlink
+kmod-nft-compat
+kmod-nft-core
+kmod-nft-fib
+kmod-nft-nat
+kmod-nft-offload
+kmod-nls-base
+kmod-nls-cp437
+kmod-nls-iso8859-1
+kmod-nls-utf8
+kmod-oid-registry
+kmod-ppp
+kmod-pppoe
+kmod-pppox
+kmod-rtl8192c-common
+kmod-rtl8192cu
+kmod-rtlwifi
+kmod-rtlwifi-usb
+kmod-sched-cake
+kmod-sched-core
+kmod-scsi-core
+kmod-slhc
+kmod-thermal
+kmod-tun
+kmod-udptunnel4
+kmod-udptunnel6
+kmod-usb-core
+kmod-usb-storage
+kmod-usb-xhci-hcd
+kmod-usb-xhci-mtk
+kmod-usb3
+kmod-wireguard
+ksmbd-avahi-service
+ksmbd-server
+libatomic1
+libavahi-dbus-support
+libblkid1
+libblobmsg-json
+libbpf1
+libc
+libcap-ng
+libcomerr0
+libcurl4
+libdaemon
+libdbus
+libelf1
+libevdev
+libexpat
+libext2fs2
+libf2fs6
+libgcc1
+libgd
+libgmp10
+libiperf3
+libiptext-nft0
+libiptext0
+libiptext6-0
+libiwinfo-data
+libiwinfo20230701
+libjpeg-turbo
+libjson-c5
+libjson-script202312041
+liblua5.1.5
+liblucihttp-lua
+liblucihttp-ucode
+liblucihttp0
+liblz4-1
+liblzo2
+libmbedtls12
+libmnl0
+libncurses6
+libnetfilter-conntrack3
+libnettle8
+libnfnetlink0
+libnftnl11
+libnghttp2-14
+libnl-core200
+libnl-genl200
+libnl-tiny1
+libopenssl-conf
+libopenssl-devcrypto
+libopenssl-legacy
+libopenssl3
+libpcap1
+libpng
+libpthread
+librt
+libsensors5
+libsqlite3-0
+libss2
+libsysfs2
+libubox202312041
+libubus-lua
+libubus20231128
+libuci20130104
+libuclient20201210
+libucode20230711
+libudebug
+libudev-zero
+libusb-1.0-0
+libustream-mbedtls20201210
+libuuid1
+libwebp
+libxtables12
+lm-sensors
+logd
+lua
+luci-app-adblock
+luci-app-firewall
+luci-app-irqbalance
+luci-app-ksmbd
+luci-app-openvpn
+luci-app-opkg
+luci-app-pbr
+luci-app-sqm
+luci-app-vnstat2
+luci-base
+luci-compat
+luci-lib-base
+luci-lib-ip
+luci-lib-jsonc
+luci-lib-nixio
+luci-lua-runtime
+luci-mod-admin-full
+luci-mod-network
+luci-mod-status
+luci-mod-system
+luci-proto-3g
+luci-proto-ppp
+luci-proto-wireguard
+luci-theme-bootstrap
+mkf2fs
+mt7986-wo-firmware
+mtd
+netifd
+nftables-json
+odhcp6c
+odhcpd-ipv6only
+openssl-util
+openvpn-openssl
+openwrt-keyring
+opkg
+pbr
+ppp
+ppp-mod-pppoe
+procd
+procd-seccomp
+procd-ujail
+resolveip
+rpcd
+rpcd-mod-file
+rpcd-mod-iwinfo
+rpcd-mod-luci
+rpcd-mod-ucode
+rtl8192cu-firmware
+sqm-scripts
+sysfsutils
+tc-tiny
+tcpdump-mini
+terminfo
+ubi-utils
+uboot-envtools
+ubox
+ubus
+ubusd
+uci
+uclient-fetch
+ucode
+ucode-mod-fs
+ucode-mod-html
+ucode-mod-lua
+ucode-mod-math
+ucode-mod-nl80211
+ucode-mod-rtnl
+ucode-mod-ubus
+ucode-mod-uci
+ucode-mod-uloop
+uhttpd
+uhubctl
+urandom-seed
+urngd
+usbutils
+usign
+vnstat2
+vnstati2
+wireguard-tools
+wireless-regdb
+wpad-basic-openssl
+wsdd2
+xtables-nft
+zlib
 
 ```
 
