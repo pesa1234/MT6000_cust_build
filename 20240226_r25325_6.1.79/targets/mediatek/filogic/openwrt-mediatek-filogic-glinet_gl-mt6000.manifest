@@ -43,7 +43,7 @@ iwinfo - 2023-11-19-a34977c0-1
 jansson4 - 2.14-3
 jshn - 2024-01-26-c1be5057-1
 jsonfilter - 2024-01-23-594cfa86-1
-kernel - 6.1.79-1-58d376a67737941ee877b4d9a1b42afa
+kernel - 6.1.79-1-6fb4c1eb44f41dfddd2483e143aa39c5
 kmod-asn1-decoder - 6.1.79-1
 kmod-cfg80211 - 6.1.79+6.6.15-1
 kmod-crypto-aead - 6.1.79-1

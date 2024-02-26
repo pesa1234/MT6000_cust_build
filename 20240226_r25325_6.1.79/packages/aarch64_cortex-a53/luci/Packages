@@ -100,6 +100,19 @@ Size: 3192
 SHA256sum: 6ca5f51eaf6b935e93170f013e728118bfb732836852e144e87d6733adc3cf7a
 Description:  LuCI support for irqbalance
 
+Package: luci-app-keepalived
+Version: git-24.042.83746-3f6f25f
+Depends: libc, luci-base, keepalived, keepalived-sync
+License: GPL-2.0-or-later
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-keepalived_git-24.042.83746-3f6f25f_all.ipk
+Size: 9608
+SHA256sum: 3ef89c2c5e1970e7d80496bf5f27994684c88c304cdd32952502ac8d8f5c28fc
+Description:  LuCI support for the Keepalived
+
 Package: luci-app-ksmbd
 Version: git-24.022.76896-fe543de
 Depends: libc, luci-base, ksmbd-server

@@ -73,6 +73,22 @@ Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  .
  This package contains an mDNS/DNS-SD daemon.
 
+Package: btrfs-progs
+Version: 6.5.1-1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+License: GPL-2.0-only
+Section: utils
+URL: https://btrfs.wiki.kernel.org/
+Architecture: aarch64_cortex-a53
+Installed-Size: 2795520
+Filename: btrfs-progs_6.5.1-1_aarch64_cortex-a53.ipk
+Size: 1242544
+SHA256sum: 6934f85228e03d86ca1fb34cae6c0a73ab6e9589c8f075678086fc1c0dd114cc
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
 Package: cgi-io
 Version: 2022-08-10-901b0f04-21
 Depends: libc, libubox20240126, libubus20231128
@@ -268,6 +284,20 @@ SHA256sum: cdf5facb57d82cd7ab4b1e00a4d349a6de7415fd3e1fee192afef0442f7beca0
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
+Package: containerd
+Version: 1.7.13-1
+Depends: libc, btrfs-progs, runc
+License: Apache-2.0
+Section: utils
+URL: https://containerd.io/
+CPE-ID: cpe:/a:linuxfoundation:containerd
+Architecture: aarch64_cortex-a53
+Installed-Size: 107499520
+Filename: containerd_1.7.13-1_aarch64_cortex-a53.ipk
+Size: 35083938
+SHA256sum: c070e422588ff86aaba00a92a6e947517710ae3e8dfa6433d4c9a8234c619805
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
 Package: coreutils-sort
 Version: 9.3-1
 Depends: libc, coreutils, libpthread
@@ -297,6 +327,21 @@ Filename: coreutils-stat_9.3-1_aarch64_cortex-a53.ipk
 Size: 55924
 SHA256sum: bcdf4159576710da1f45e716b06c58edac5458bbf255c73a839490ede7beb29e
 Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-timeout
+Version: 9.3-1
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: coreutils-timeout_9.3-1_aarch64_cortex-a53.ipk
+Size: 32124
+SHA256sum: e536ad8843020c22480e61467471b820407f6913a3a4e50aead72aa2dbff6788
+Description:  Full version of standard GNU timeout utility.
 
 Package: coreutils
 Version: 9.3-1
@@ -342,6 +387,19 @@ Size: 134242
 SHA256sum: b6c41f4e2580e84e5992f1bee5600a89b21814b97b1f15a096ce03dd254311ae
 Description:  Simple interprocess messaging system (daemon)
 
+Package: dockerd
+Version: 25.0.3-1
+Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, tini, uci-firewall
+License: Apache-2.0
+Section: utils
+URL: https://www.docker.com/
+Architecture: aarch64_cortex-a53
+Installed-Size: 58613760
+Filename: dockerd_25.0.3-1_aarch64_cortex-a53.ipk
+Size: 19210063
+SHA256sum: 7cc4d702e34c7c94fed2d4e497d691f24d9a3e3846e26e8606625bca6fc204fa
+Description:  The Docker CE Engine.
+
 Package: hd-idle
 Version: 1.05-2
 Depends: libc
@@ -371,6 +429,26 @@ Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
 
+Package: inotifywait
+Version: 4.23.9.0-1
+Depends: libc, libinotifytools
+License: GPLv2
+Section: utils
+URL: https://github.com/rvoicilas/inotify-tools/wiki
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: inotifywait_4.23.9.0-1_aarch64_cortex-a53.ipk
+Size: 10138
+SHA256sum: a1c4fc73f01f49d70614628d365b31694a2d819e090e5628a4690354523b5b35
+Description:  inotify-tools is a C library and a set of command-line programs for
+ Linux providing a simple interface to inotify. These programs can be
+ used to monitor and act upon filesystem events. A more detailed
+ description of the programs is further down the page. The programs are
+ written in C and have no dependencies other than a Linux kernel
+ supporting inotify.
+ 
+ This package provides the inotifywait tool.
+
 Package: iperf3
 Version: 3.16-1
 Depends: libc, libiperf3
@@ -387,6 +465,23 @@ Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
 
+Package: ipvsadm
+Version: 1.31-2
+Depends: libc, kmod-nf-ipvs, libnl-genl200, libpopt0
+License: GPL-2.0-or-later
+Section: net
+URL: http://www.linuxvirtualserver.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: ipvsadm_1.31-2_aarch64_cortex-a53.ipk
+Size: 28836
+SHA256sum: 711e4b800f5899e460c0788b13489aaa437f942da2c9966d070f5a4933913446
+Description:  IPVS (IP Virtual Server) implements transport-layer load balancing
+ inside the Linux kernel, so called Layer-4 switching. The command line tool
+ ipvsadm is used to set up, maintain or inspect the virtual server table
+ in the Linux kernel. The Linux Virtual Server can be used to build scalable
+ network services based on a cluster of two or more nodes.
+
 Package: irqbalance
 Version: 1.9.3-2
 Depends: libc
@@ -401,6 +496,33 @@ SHA256sum: 6842c019995c49d7074517d3ee0a94f3e3236759e4d5911623fc241d3a67fdb3
 Description:  The purpose of irqbalance is to distribute hardware interrupts across
  processors/cores on a multiprocessor/multicore system in order to
  increase performance.
+
+Package: keepalived-sync
+Version: 2.2.8-5
+Depends: libc, keepalived, rsync, inotifywait, sudo, coreutils-timeout
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:keepalived:keepalived
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: keepalived-sync_2.2.8-5_aarch64_cortex-a53.ipk
+Size: 6851
+SHA256sum: 87889ea320577f9a2bf3ea00613d671b29dbfe93cfa6967fcedce9d074723391
+Description:  Keepalived HA with Master to Backup files and data Synchronization
+
+Package: keepalived
+Version: 2.2.8-5
+Depends: libc, libnl-genl200, libmagic, libkmod, kmod-nf-ipvs, libjson-c5, libnftnl11, kmod-macvlan, libnl-route200, libnfnetlink0, libopenssl3, libip4tc2, libip6tc2, libxtables12, libipset13
+License: GPL-2.0-or-later
+Section: net
+URL: http://www.keepalived.org/
+CPE-ID: cpe:/a:keepalived:keepalived
+Architecture: aarch64_cortex-a53
+Installed-Size: 1628160
+Filename: keepalived_2.2.8-5_aarch64_cortex-a53.ipk
+Size: 628548
+SHA256sum: ba68f7ccfaa49ad0a307e158cb34b3025d866a1b1365513f01807f346d674ac2
+Description:  VRRP with failover and monitoring daemon for Linux Virtual Server (LVS) clusters.
 
 Package: ksmbd-avahi-service
 Version: 3.5.1-1
@@ -729,6 +851,26 @@ SHA256sum: 30eb64e6e37173b1268a499124c850f875819873ea41ce471af21035a9449d31
 Description:  libimobiledevice is a software library that talks the protocols to support
  iPhone®, iPod Touch®, iPad® and Apple TV® devices.
 
+Package: libinotifytools
+Version: 4.23.9.0-1
+Depends: libc
+License: GPLv2
+Section: libs
+URL: https://github.com/rvoicilas/inotify-tools/wiki
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libinotifytools_4.23.9.0-1_aarch64_cortex-a53.ipk
+Size: 19104
+SHA256sum: 8f2de337fb8a986cb139864ed2a3e9f3025a3b4620098107b8c1b7995ccbfd03
+Description:  inotify-tools is a C library and a set of command-line programs for
+ Linux providing a simple interface to inotify. These programs can be
+ used to monitor and act upon filesystem events. A more detailed
+ description of the programs is further down the page. The programs are
+ written in C and have no dependencies other than a Linux kernel
+ supporting inotify.
+ 
+ This package provides the libinotifytools shared library.
+
 Package: libiperf3
 Version: 3.16-1
 Depends: libc, libatomic1
@@ -758,6 +900,20 @@ Size: 252649
 SHA256sum: 0c6d17083da994d0208588a1ce7f03f2d37e0d6738be0b8463f0e5c984c8cc41
 Description:  libjpeg-turbo is a speed focused fork of libjpeg.
 
+Package: libkmod
+Version: 31-1
+Depends: libc, zlib
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.kernel.org/pub/linux/utils/kernel/kmod/
+CPE-ID: cpe:/a:kernel:kmod
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libkmod_31-1_aarch64_cortex-a53.ipk
+Size: 47218
+SHA256sum: 01bfd77d8cfabef225f5ef6fc1dc70a6de58844b343dab9641913ac8d3ffa3c0
+Description:  Linux kernel module handling (library)
+
 Package: liblz4-1
 Version: 1.9.4-1
 Depends: libc
@@ -775,6 +931,20 @@ SHA256sum: 01944956524babfc787ead7b166195531036ec5a1747dd41eeee1bbfab5ff100
 Description:  LZ4 is a compression codec that features a very fast encoder and an
  even faster decoder. This package provides the liblz4 shared library.
 
+Package: liblzma
+Version: 5.4.6-1
+Depends: libc, libpthread
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+Section: libs
+URL: https://tukaani.org/xz
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: liblzma_5.4.6-1_aarch64_cortex-a53.ipk
+Size: 81529
+SHA256sum: b147fba9aa38b92b3521dda0283848de05a69cdbb6739b9c6067b95dec029b06
+Description:  liblzma library from XZ Utils
+
 Package: liblzo2
 Version: 2.10-4
 Depends: libc
@@ -791,6 +961,19 @@ Size: 45218
 SHA256sum: 922918b7fde16dfbd74a6c693c23eadb4eda1b6e618b2b86a0f5edfe9e6edb3d
 Description:  LZO is a data compression library which is suitable for data de-/compression
  in real-time. This means it favours speed over compression ratio.
+
+Package: libmagic
+Version: 5.45-1
+Depends: libc, zlib, liblzma, libbz2-1.0
+License: BSD-2-Clause
+Section: libs
+URL: https://darwinsys.com/file/
+Architecture: aarch64_cortex-a53
+Installed-Size: 1075200
+Filename: libmagic_5.45-1_aarch64_cortex-a53.ipk
+Size: 304829
+SHA256sum: 80a359988abd93b780df76c691446b383f062fd30a0cf37e01b29b5a3377582e
+Description:  File type determination library
 
 Package: libnghttp2-14
 Version: 1.57.0-1
@@ -891,6 +1074,20 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  librrd.so. The library is much smaller compared to the 1.2.x version with
  separate dynamic linked libraries.
  This package contains a shared library, used by other programs.
+
+Package: libseccomp
+Version: 2.5.4-2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/seccomp/libseccomp/wiki
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libseccomp_2.5.4-2_aarch64_cortex-a53.ipk
+Size: 49132
+SHA256sum: 71744647729df3a082a4d47d822c3e9df7d2d475f41afbc6fc706e5b20571a00
+Description:  This package contains the seccomp library.
 
 Package: libsensors5
 Version: 3.6.0-1
@@ -1154,6 +1351,40 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  separate dynamic linked libraries.
  This package contains command line tools used to manage RRDs.
 
+Package: rsync
+Version: 3.2.7-1
+Depends: libc, libpopt0, zlib
+License: GPL-3.0-or-later
+Section: net
+URL: https://rsync.samba.org/
+CPE-ID: cpe:/a:rsync:rsync
+Architecture: aarch64_cortex-a53
+Installed-Size: 481280
+Filename: rsync_3.2.7-1_aarch64_cortex-a53.ipk
+Size: 217248
+SHA256sum: 007d8c0d8de9fb5adb23c0497e0aeeccc5ac05258727c75f75f86e0074264613
+Description:  rsync is a program that allows files to be copied to and from remote machines
+ in much the same way as rcp. It has many more options than rcp, and uses the
+ rsync remote-update protocol to greatly speed up file transfers when the
+ destination file already exists.
+ 
+ The rsync remote-update protocol allows rsync to transfer just the differences
+ between two sets of files across the network link.
+
+Package: runc
+Version: 1.1.12-1
+Depends: libc, libseccomp
+License: Apache-2.0
+Section: utils
+URL: https://www.opencontainers.org/
+CPE-ID: cpe:/a:linuxfoundation:runc
+Architecture: aarch64_cortex-a53
+Installed-Size: 9492480
+Filename: runc_1.1.12-1_aarch64_cortex-a53.ipk
+Size: 3364346
+SHA256sum: 47cf0dad2f0580c0125bc2b8025a0319e2fa910e55845ded63b65117b231b4ec
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
 Package: samba4-libs
 Version: 4.18.8-1
 Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl3, libpthread, liburing, attr, libavahi-client
@@ -1162,10 +1393,10 @@ Section: net
 URL: https://www.samba.org/
 CPE-ID: cpe:/a:samba:samba
 Architecture: aarch64_cortex-a53
-Installed-Size: 42117120
+Installed-Size: 42199040
 Filename: samba4-libs_4.18.8-1_aarch64_cortex-a53.ipk
-Size: 10096472
-SHA256sum: f01876b4562960b32078c2a33395fef6075282309c21939752049deb5a3e39dd
+Size: 10107986
+SHA256sum: 8cb786cf9035d2d6f09cf2c58d27168d35a2601a7358da48a8d6eb1b38875a48
 Description:  Samba 4.18.8 libs
 
 Package: samba4-server
@@ -1198,6 +1429,37 @@ Filename: sqm-scripts_1.6.0-1_all.ipk
 Size: 20402
 SHA256sum: f02643c14ccfb21bbb57b5d3de4d0167c3ce04c701541489de7e5549b179e32e
 Description:  A set of scripts that does simple SQM configuration.
+
+Package: sudo
+Version: 1.9.15p5-1
+Depends: libc
+License: ISC
+Section: admin
+URL: https://www.sudo.ws/
+CPE-ID: cpe:/a:sudo_project:sudo
+Architecture: aarch64_cortex-a53
+Installed-Size: 1761280
+Filename: sudo_1.9.15p5-1_aarch64_cortex-a53.ipk
+Size: 588945
+SHA256sum: ee31c352d535e1c3fc1b09a3f3af154fc1966bee212d179163d21ba2779ed93a
+Description:  Sudo (su "do") allows a system administrator to delegate authority to
+ give certain users (or groups of users) the ability to run some (or
+ all) commands as root or another user while providing an audit trail of
+ the commands and their arguments.
+
+Package: tini
+Version: 0.19.0-2
+Depends: libc
+License: MIT
+Section: utils
+URL: https://github.com/krallin/tini
+CPE-ID: cpe:/a:tini_project:tini
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: tini_0.19.0-2_aarch64_cortex-a53.ipk
+Size: 40482
+SHA256sum: 84b0cc45eb9176c84d59925b20de45a1a2fc3ea7946f05dc6e8ffde14f26952a
+Description:  A tiny but valid init process for containers.
 
 Package: uhubctl
 Version: 2.5.0-1

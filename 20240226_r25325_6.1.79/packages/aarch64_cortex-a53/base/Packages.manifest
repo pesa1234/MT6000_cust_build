@@ -55,6 +55,21 @@ Size: 128220
 SHA256sum: efcfb4d6ee582e7ac4e4b281571f7085923a85b61fb7385d8e4e2e423ebbaf59
 Description:  System CA certificates as a bundle
 
+Package: ca-certificates
+Version: 20240203-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/system/ca-certificates
+SourceName: ca-certificates
+Section: base
+SourceDateEpoch: 1708253344
+Architecture: all
+Installed-Size: 409600
+Filename: ca-certificates_20240203-1_all.ipk
+Size: 146737
+SHA256sum: 4438ba19e54ea6ded70b58532049b064d93f04ab6bb85cce48d9ffbff09a1c64
+Description:  System CA certificates
+
 Package: chat
 Version: 2.4.9.git-2021-01-04-5
 Depends: libc
@@ -535,6 +550,26 @@ SHA256sum: 4d87f91fab7064ffe237ed5880efefcf4e595f0e10ef40431b969efac82346bd
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
 
+Package: libipset13
+Version: 7.17-1
+Depends: libc, kmod-ipt-ipset, libmnl0
+Provides: libipset
+Source: feeds/base/network/utils/ipset
+SourceName: ipset
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1695147673
+URL: http://ipset.netfilter.org/
+ABIVersion: 13
+CPE-ID: cpe:/a:netfilter:ipset
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 256000
+Filename: libipset13_7.17-1_aarch64_cortex-a53.ipk
+Size: 56293
+SHA256sum: 87ded5ea9bbd0612703bd83e47760c4237e27b4f05ab7250ee3f168eb097b3ac
+Description:  IPset administration utility
+
 Package: libiwinfo-data
 Version: 2023-11-19-a34977c0-1
 Depends: libc
@@ -885,6 +920,26 @@ Filename: libnl-genl200_3.9.0-1_aarch64_cortex-a53.ipk
 Size: 9909
 SHA256sum: 0080e72398083e27c195dc42e83a4f97a17a17a61eb052b73384c353dc3addf1
 Description:  Generic Netlink Library Functions
+
+Package: libnl-route200
+Version: 3.9.0-1
+Depends: libc, libnl-core200
+Provides: libnl-route
+Source: feeds/base/libs/libnl
+SourceName: libnl
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1704380804
+URL: http://www.infradead.org/~tgr/libnl/
+ABIVersion: 200
+CPE-ID: cpe:/a:libnl_project:libnl
+Architecture: aarch64_cortex-a53
+Installed-Size: 614400
+Filename: libnl-route200_3.9.0-1_aarch64_cortex-a53.ipk
+Size: 202235
+SHA256sum: 31cdc4d4f1d33ca9f1c90364c09fdb736ec0a2091560260021e27c27e8081594
+Description:  Routing Netlink Library Functions
 
 Package: libnl-tiny1
 Version: 2023-12-05-965c4bf4-1
