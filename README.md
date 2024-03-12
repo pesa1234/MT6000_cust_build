@@ -9,7 +9,7 @@ What is present?
 - wireguard
 - PBR
 - irqbalance activated
-- latest testing kernel 6.1.x
+- latest testing kernel 6.6.x
 
 Compiled to optimize speed
 
