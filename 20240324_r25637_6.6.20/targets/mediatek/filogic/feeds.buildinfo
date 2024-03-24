@@ -1,0 +1,4 @@
+src-git-full packages file:///home/ubundesk/SmartWRT/MT6000/SmartWRT/packages^4443257d90b3a7b15f54cd6fd484c8acbc615ec1
+src-git-full luci file:///home/ubundesk/SmartWRT/MT6000/SmartWRT/luci^4153e23bd2504c6cb2d3ae0d01c48038127b32ce
+src-git routing https://git.openwrt.org/feed/routing.git^da3b77402d4acee2139eb11726788599cbca45fb
+src-git telephony https://git.openwrt.org/feed/telephony.git^c60658b7db8b6d49735912732c2d2a9293d140bf
