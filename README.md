@@ -268,6 +268,7 @@ luci-mod-network
 luci-mod-status
 luci-mod-system
 luci-proto-3g
+luci-proto-ipv6
 luci-proto-ppp
 luci-proto-wireguard
 luci-theme-bootstrap
@@ -334,6 +335,7 @@ wpad-basic-openssl
 wsdd2
 xtables-nft
 zlib
+
 ```
 
 Here is listed the diffconfig
@@ -532,6 +534,7 @@ CONFIG_PACKAGE_kmod-usb-storage=y
 CONFIG_PACKAGE_kmod-usb-wdm=m
 CONFIG_PACKAGE_kmod-veth=m
 CONFIG_PACKAGE_kmod-wireguard=y
+# CONFIG_PACKAGE_knot-resolver_dnstap is not set
 CONFIG_PACKAGE_ksmbd-avahi-service=y
 CONFIG_PACKAGE_ksmbd-hotplug=m
 CONFIG_PACKAGE_ksmbd-server=y
@@ -645,7 +648,7 @@ CONFIG_PACKAGE_luci-mod-network=y
 CONFIG_PACKAGE_luci-mod-status=y
 CONFIG_PACKAGE_luci-mod-system=y
 CONFIG_PACKAGE_luci-proto-3g=y
-CONFIG_PACKAGE_luci-proto-ipv6=m
+CONFIG_PACKAGE_luci-proto-ipv6=y
 CONFIG_PACKAGE_luci-proto-ppp=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
@@ -706,4 +709,5 @@ CONFIG_TARGET_OPTIONS=y
 CONFIG_TESTING_KERNEL=y
 # CONFIG_PACKAGE_dnsmasq_full_dhcpv6 is not set
 # CONFIG_PACKAGE_kmod-crypto-kpp is not set
+
 ```
