@@ -408,10 +408,10 @@ URL: https://containerd.io/
 CPE-ID: cpe:/a:linuxfoundation:containerd
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 109885440
+Installed-Size: 109895680
 Filename: containerd_1.7.13-r1_aarch64_cortex-a53.ipk
-Size: 35777901
-SHA256sum: f17d29d827f0c67d912f0d216b312b21d5cca042801051534e78471689584bd8
+Size: 35777854
+SHA256sum: e8e9678e32073d4feca178d8318be10cf9e2bf645b3145e89f703202062315af
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
 Package: coreutils-sort
@@ -547,8 +547,8 @@ Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 59463680
 Filename: dockerd_25.0.3-r1_aarch64_cortex-a53.ipk
-Size: 19513456
-SHA256sum: 2feb3546628234ff71207d7820fa8423360827792120bc11188798b27a46ac3a
+Size: 19514154
+SHA256sum: ef27e5f08bf1ec95d1b248b7a1a08f8908e02037e403e6674c7e50c9cf0ab42e
 Description:  The Docker CE Engine.
 
 Package: hd-idle
@@ -1868,6 +1868,26 @@ Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbc
  
  This provides the basic fileserver service and is the minimum needed to serve file shares.
  HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
+
+Package: sing-box
+Version: 1.8.10-r1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-tun
+Source: feeds/packages/net/sing-box
+SourceName: sing-box
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Require-User: sing-box=5566:sing-box=5566
+SourceDateEpoch: 1711958380
+URL: https://sing-box.sagernet.org
+Maintainer: Van Waholtz <brvphoenix@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 26941440
+Filename: sing-box_1.8.10-r1_aarch64_cortex-a53.ipk
+Size: 9650412
+SHA256sum: 68686f141fbd198ff49d51c30d124f9e5e794ae7ecb06cba5690bf15e2233d99
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
 Package: sqm-scripts
 Version: 1.6.0-r1

@@ -44,7 +44,7 @@ iwinfo - 2024.03.23~79a96150-r1
 jansson4 - 2.14-r3
 jshn - 2024.01.26~c1be5057-r1
 jsonfilter - 2024.01.23~594cfa86-r1
-kernel - 6.6.23~b579e26f0e35de4082ff14abdecf1151-r1
+kernel - 6.6.23~934485625c575ce176db364671fda501-r1
 kmod-asn1-decoder - 6.6.23-r1
 kmod-cfg80211 - 6.6.23.6.6.15-r1
 kmod-crypto-aead - 6.6.23-r1
