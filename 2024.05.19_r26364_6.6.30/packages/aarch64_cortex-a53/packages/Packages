@@ -1,0 +1,1775 @@
+Package: acme-acmesh
+Version: 3.0.7-r2
+Depends: libc, acme-common, wget-ssl, ca-bundle, openssl-util, socat
+Provides: acme-client
+License: GPL-3.0-only
+Section: net
+URL: https://acme.sh
+Architecture: all
+Installed-Size: 235520
+Filename: acme-acmesh_3.0.7-r2_all.ipk
+Size: 52930
+SHA256sum: 99c3a5f98d44e3869a3a4a73e53b0d89eb65855a7a74ab9ebac49ee5dab0053c
+Description:  A client for issuing ACME (e.g, Letsencrypt) certificates.
+
+Package: acme-common
+Version: 1.1.1
+Depends: libc
+License: GPL-3.0-only
+Section: net
+Architecture: all
+Installed-Size: 20480
+Filename: acme-common_1.1.1_all.ipk
+Size: 3322
+SHA256sum: 0d11d31593948a74f49261e98964590dd60ae02de555903ecd7399a60b0f5dd2
+Description:  ACME client wrapper common files.
+
+Package: acme
+Version: 4.0.0
+Depends: libc, acme-acmesh
+License: GPL-3.0-only
+Section: net
+Architecture: all
+Installed-Size: 10240
+Filename: acme_4.0.0_all.ipk
+Size: 836
+SHA256sum: 93ce9a425fc9b3082f5f0399f62c7b1d17dbff8cda64cf098f1858d033834628
+Description:  Shorthand package for acme-acmesh.
+
+Package: adblock-fast
+Version: 1.1.2-r1
+Depends: libc, jshn, curl
+Conflicts: simple-adblock
+Provides: simple-adblock
+License: AGPL-3.0-or-later
+Section: net
+URL: https://docs.openwrt.melmac.net/adblock-fast/
+Architecture: all
+Installed-Size: 92160
+Filename: adblock-fast_1.1.2-r1_all.ipk
+Size: 18793
+SHA256sum: 14586fd0335851a4983cb823ab9d622714c4ccafc90d7142c7c0f66044d0eeec
+Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
+ Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
+ Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
+
+Package: adblock
+Version: 4.1.5-r9
+Depends: libc, jshn, jsonfilter, coreutils, coreutils-sort, ca-bundle, opkg
+License: GPL-3.0-or-later
+Section: net
+Architecture: all
+Installed-Size: 92160
+Filename: adblock_4.1.5-r9_all.ipk
+Size: 20813
+SHA256sum: 8f214feba8a310016b707b4084c472857403b12d6e202583cc3f9acf53122688
+Description:  Powerful adblock solution to block ad/abuse domains via dnsmasq, unbound, named or kresd.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: attr
+Version: 2.5.2-r2
+Depends: libc, libattr
+License: GPL-2.0-or-later
+Section: utils
+URL: http://savannah.nongnu.org/projects/attr
+CPE-ID: cpe:/a:attr_project:attr
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: attr_2.5.2-r2_aarch64_cortex-a53.ipk
+Size: 16631
+SHA256sum: 0ce3d81a5355001adde7d38df1bbaaf866b784e1085014acf9d3837082cdc756
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: avahi-dbus-daemon
+Version: 0.8-r9
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+License: LGPL-2.1-or-later
+Section: net
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: avahi-dbus-daemon_0.8-r9_aarch64_cortex-a53.ipk
+Size: 46712
+SHA256sum: 8cfe3b315ae1b3f60b2ce01219c01138842b18e55f8221997cc6165f2105f857
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: btrfs-progs
+Version: 6.5.1-r1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+License: GPL-2.0-only
+Section: utils
+URL: https://btrfs.wiki.kernel.org/
+Architecture: aarch64_cortex-a53
+Installed-Size: 2795520
+Filename: btrfs-progs_6.5.1-r1_aarch64_cortex-a53.ipk
+Size: 1235148
+SHA256sum: d2ac3c9f1ac21b096b41e28b0b436c88ac228a07c86099c66baf62f6c3d70222
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgi-io
+Version: 2022.08.10~901b0f04-r21
+Depends: libc, libubox20240329, libubus20231128
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: cgi-io_2022.08.10~901b0f04-r21_aarch64_cortex-a53.ipk
+Size: 10298
+SHA256sum: 2f70833bc929ebc8ec9fb106d3fefc005f84dea2387a14a429b68f632a776401
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: cloudflared
+Version: 2024.4.1-r1
+Depends: libc, ca-bundle
+License: Apache-2.0
+Section: net
+URL: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide
+Architecture: aarch64_cortex-a53
+Installed-Size: 24197120
+Filename: cloudflared_2024.4.1-r1_aarch64_cortex-a53.ipk
+Size: 8324326
+SHA256sum: 0a0b86286d22b7458c44a57adf04779c5355a450d3ec55a24d741576b2bf2e9a
+Description:  Contains the command-line client for Cloudflare Tunnel, a tunneling
+ daemon that proxies traffic from the Cloudflare network to your origins.
+ 
+ This daemon sits between Cloudflare network and your origin (e.g. a
+ webserver). Cloudflare attracts client requests and sends them to you
+ via this daemon, without requiring you to poke holes on your firewall
+ --- your origin can remain as closed as possible.
+
+Package: collectd-mod-cpu
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-cpu_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 5418
+SHA256sum: 8e74c97f13cb5af5910051672cec6c4665055e900e2725bb5c991e07bc913d13
+Description:  CPU input plugin
+
+Package: collectd-mod-exec
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-exec_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 29769
+SHA256sum: 4975a51cbf8521c89a0c9104b6ffccf6fa1a3b90ef84f1a683ab26bea9e6b624
+Description:  process exec input plugin
+
+Package: collectd-mod-interface
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-interface_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 5100
+SHA256sum: cfe1eaab67c142cd67ef66d15d5c79f4e42360cc6c5d25ceae094a041c37765c
+Description:  network interfaces input plugin
+
+Package: collectd-mod-irq
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-irq_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 5033
+SHA256sum: e4f32ec6ea7847b738fe459891d048093e79afe92a67be7eda3df81d20db8090
+Description:  interrupt usage input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.12.0-r50
+Depends: libc, collectd, libiwinfo20230701
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-iwinfo_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 5316
+SHA256sum: 28b40fa4cb515b1f643115dee9645a0c424ec608971960d6ea84fbd2ac94be34
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-load_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 3063
+SHA256sum: ee3e9acbc57d06c92783b4ae522dad77719f8625c7c479c78faced06ca4cfa87
+Description:  system load input plugin
+
+Package: collectd-mod-memory
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-memory_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 3963
+SHA256sum: 4999c73e130dad4526cec29c7f020a94be58c7e9bac8cc2d5920851e274e559f
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-network
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-network_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 17892
+SHA256sum: 8e93f122671839665f7c42d3224ea8ce6888cfaf985865a5a886bef3f45df6f2
+Description:  network input/output plugin
+
+Package: collectd-mod-openvpn
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-openvpn_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 6397
+SHA256sum: b064d28138dd00aaa39eed4a9451e3780d16bfc3dca6f552515aa3513b33541b
+Description:  OpenVPN traffic/compression input plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.12.0-r50
+Depends: libc, collectd, librrd1
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-rrdtool_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 13046
+SHA256sum: 94ecc551955801e15c29e14776f45217ecfd356f737d5d8375d8dc00453e415f
+Description:  RRDtool output plugin
+
+Package: collectd-mod-sensors
+Version: 5.12.0-r50
+Depends: libc, collectd, lm-sensors
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-sensors_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 5768
+SHA256sum: dfef511e3aa5a9030bf2ad6fd96f365b695de78408104fc48830783db7e0e69c
+Description:  lm_sensors input plugin
+
+Package: collectd-mod-sqm
+Version: 5.12.0-r50
+Depends: libc, collectd-mod-exec
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: collectd-mod-sqm_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 2185
+SHA256sum: bd33aa141a0d58c9e7c4961624210db887f5194a111b204f2d05cc916c538e56
+Description:  SQM/qdisc collection plugin
+
+Package: collectd-mod-thermal
+Version: 5.12.0-r50
+Depends: libc, collectd
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-thermal_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 5720
+SHA256sum: ba536931ad64085a54c272b8e3cbcbecbd0734ad1038d9275a514e5977b489d2
+Description:  system temperatures input plugin
+
+Package: collectd
+Version: 5.12.0-r50
+Depends: libc, libpthread, zlib, libltdl7, jshn
+License: MIT GPL-2.0-or-later
+Section: utils
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Architecture: aarch64_cortex-a53
+Installed-Size: 317440
+Filename: collectd_5.12.0-r50_aarch64_cortex-a53.ipk
+Size: 105026
+SHA256sum: be83b8f545177f26e123a60acbe1681f51b075813a0b448c7335f463835f2667
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: containerd
+Version: 1.7.15-r1
+Depends: libc, btrfs-progs, runc
+License: Apache-2.0
+Section: utils
+URL: https://containerd.io/
+CPE-ID: cpe:/a:linuxfoundation:containerd
+Architecture: aarch64_cortex-a53
+Installed-Size: 108001280
+Filename: containerd_1.7.15-r1_aarch64_cortex-a53.ipk
+Size: 35135763
+SHA256sum: c4c518be32c0f1ba876477a55ee4e73b2d7e12bc3ae2c274e21f0b928ebaa06b
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
+Package: coreutils-sort
+Version: 9.3-r1
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: coreutils-sort_9.3-r1_aarch64_cortex-a53.ipk
+Size: 65316
+SHA256sum: d05235c0bf6c43255db2eaa9195327efbac73dc59eb8c2a7ab108307d787d1c3
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-stat
+Version: 9.3-r1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: coreutils-stat_9.3-r1_aarch64_cortex-a53.ipk
+Size: 55778
+SHA256sum: 8204b356eeaa3a2d9ee85d739c546de785f9834efba8c4ffda2fc4f72b2342c6
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-timeout
+Version: 9.3-r1
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: coreutils-timeout_9.3-r1_aarch64_cortex-a53.ipk
+Size: 31289
+SHA256sum: 24411367c87324b7a5d893d31b59dffe8c596b2b6099b921adcc70b26c7a4eab
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils
+Version: 9.3-r1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: coreutils_9.3-r1_aarch64_cortex-a53.ipk
+Size: 1004
+SHA256sum: 9b55e6a2a6b723a9e51ca0d225c5f778e3b7728dcdc9ee173146e2ffa139bb27
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 8.7.1-r2
+Depends: libc, libcurl4
+License: MIT
+Section: net
+URL: http://curl.se/
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: curl_8.7.1-r2_aarch64_cortex-a53.ipk
+Size: 73856
+SHA256sum: 01e174831afa2246be8c81fc77dce97305eda7bed2a2120d2877db4632296a25
+Description:  A client-side URL transfer utility
+
+Package: dbus
+Version: 1.14.10-r1
+Depends: libc, libexpat, libdbus
+License: AFL-2.1
+Section: utils
+URL: https://dbus.freedesktop.org/
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: aarch64_cortex-a53
+Installed-Size: 552960
+Filename: dbus_1.14.10-r1_aarch64_cortex-a53.ipk
+Size: 133794
+SHA256sum: 435f9fd9f8638b116ec1645567c074cb05d5ce703eaf42dff8857ff7fce190c3
+Description:  Simple interprocess messaging system (daemon)
+
+Package: dockerd
+Version: 26.1.0-r1
+Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, tini, uci-firewall
+License: Apache-2.0
+Section: utils
+URL: https://www.docker.com/
+Architecture: aarch64_cortex-a53
+Installed-Size: 62597120
+Filename: dockerd_26.1.0-r1_aarch64_cortex-a53.ipk
+Size: 20325138
+SHA256sum: f4b8506ed0573f85c8073374115f58768a19d575e64cb5380f4863d4b98f2490
+Description:  The Docker CE Engine.
+
+Package: hd-idle
+Version: 1.05-r2
+Depends: libc
+License: GPL-2.0
+Section: utils
+URL: http://hd-idle.sourceforge.net/
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: hd-idle_1.05-r2_aarch64_cortex-a53.ipk
+Size: 6007
+SHA256sum: d9d8ca3f89e7bb90e11cbda3a1a3fb953aa692bf526cf169759f998db9bb69b3
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: htop
+Version: 3.3.0-r2
+Depends: libc, libncurses6
+License: GPL-2.0-or-later
+Section: admin
+URL: https://hisham.hm/htop/
+CPE-ID: cpe:/a:htop:htop
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: htop_3.3.0-r2_aarch64_cortex-a53.ipk
+Size: 132072
+SHA256sum: 3aeb2385d8c9cea84662d34d874463f80222ec09002f6d8f1966c73be2d2bd29
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: inotifywait
+Version: 4.23.9.0-r2
+Depends: libc, libinotifytools
+License: GPLv2
+Section: utils
+URL: https://github.com/rvoicilas/inotify-tools/wiki
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: inotifywait_4.23.9.0-r2_aarch64_cortex-a53.ipk
+Size: 10007
+SHA256sum: 0d5d01a8b93363de0fffa61ae816e8ce29566bd2b5a8efb8211e2bb50e754abc
+Description:  inotify-tools is a C library and a set of command-line programs for
+ Linux providing a simple interface to inotify. These programs can be
+ used to monitor and act upon filesystem events. A more detailed
+ description of the programs is further down the page. The programs are
+ written in C and have no dependencies other than a Linux kernel
+ supporting inotify.
+ 
+ This package provides the inotifywait tool.
+
+Package: iperf3
+Version: 3.16-r1
+Depends: libc, libiperf3
+License: BSD-3-Clause
+Section: net
+URL: https://github.com/esnet/iperf
+CPE-ID: cpe:/a:es:iperf3
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: iperf3_3.16-r1_aarch64_cortex-a53.ipk
+Size: 3172
+SHA256sum: 11867247cc73487d1a569287fa17709e9841c6762eb0101da82dbb6b0eb3fddb
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: ipvsadm
+Version: 1.31-r2
+Depends: libc, kmod-nf-ipvs, libnl-genl200, libpopt0
+License: GPL-2.0-or-later
+Section: net
+URL: http://www.linuxvirtualserver.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: ipvsadm_1.31-r2_aarch64_cortex-a53.ipk
+Size: 28646
+SHA256sum: 47d57c0998565a191f0f0e1bc1992e80f6b9e332eaebe1e584b2f38314fb5ba4
+Description:  IPVS (IP Virtual Server) implements transport-layer load balancing
+ inside the Linux kernel, so called Layer-4 switching. The command line tool
+ ipvsadm is used to set up, maintain or inspect the virtual server table
+ in the Linux kernel. The Linux Virtual Server can be used to build scalable
+ network services based on a cluster of two or more nodes.
+
+Package: irqbalance
+Version: 1.9.4-r1
+Depends: libc
+License: GPL-2.0-or-later
+Section: utils
+URL: https://github.com/Irqbalance/irqbalance
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: irqbalance_1.9.4-r1_aarch64_cortex-a53.ipk
+Size: 70772
+SHA256sum: 432bdfe1d37900937a5f42f67e1640b216a6f1e5e8777a17a66b74c6e32e1e52
+Description:  The purpose of irqbalance is to distribute hardware interrupts across
+ processors/cores on a multiprocessor/multicore system in order to
+ increase performance.
+
+Package: keepalived-sync
+Version: 2.2.8-r7
+Depends: libc, keepalived, rsync, inotifywait, sudo, coreutils-timeout
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:keepalived:keepalived
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: keepalived-sync_2.2.8-r7_aarch64_cortex-a53.ipk
+Size: 5961
+SHA256sum: c24be409db8b41dace3632580a0e10cfcab6ba6b6136847ef9846d94f4526b28
+Description:  Keepalived HA with Master to Backup files and data Synchronization
+
+Package: keepalived
+Version: 2.2.8-r7
+Depends: libc, libnl-genl200, libmagic, libkmod, kmod-nf-ipvs, libjson-c5, libnftnl11, kmod-macvlan, libnl-route200, libnfnetlink0, libopenssl3, libip4tc2, libip6tc2, libxtables12, libipset13
+License: GPL-2.0-or-later
+Section: net
+URL: http://www.keepalived.org/
+CPE-ID: cpe:/a:keepalived:keepalived
+Architecture: aarch64_cortex-a53
+Installed-Size: 1628160
+Filename: keepalived_2.2.8-r7_aarch64_cortex-a53.ipk
+Size: 627543
+SHA256sum: c76960b493563abe043f7d9ca52c4d1046f4c61519a923e7f17f2df2b6f9a136
+Description:  VRRP with failover and monitoring daemon for Linux Virtual Server (LVS) clusters.
+
+Package: ksmbd-avahi-service
+Version: 3.5.2-r1
+Depends: libc, avahi-daemon
+License: GPL-2.0-or-later
+Section: net
+URL: https://github.com/cifsd-team/ksmbd-tools
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: ksmbd-avahi-service_3.5.2-r1_aarch64_cortex-a53.ipk
+Size: 1219
+SHA256sum: a5194832c2770b8541250e42350563c2843083d59b1e87f8496b8ed68178784c
+Description:  installs: smb.service
+ 
+ This package contains the service definition for announcing the
+ Ksmbd (smb/445) Daemon service via mDNS/DNS-SD.
+
+Package: ksmbd-server
+Version: 3.5.2-r1
+Depends: libc, kmod-fs-ksmbd, libnl-core200, libnl-genl200
+License: GPL-2.0-or-later
+Section: net
+URL: https://github.com/cifsd-team/ksmbd-tools
+Architecture: aarch64_cortex-a53
+Installed-Size: 481280
+Filename: ksmbd-server_3.5.2-r1_aarch64_cortex-a53.ipk
+Size: 147494
+SHA256sum: de5d06907ff417d94f83422ab4a625811612f18b8c7c0b994c3298cf8451048c
+Description:  installs: ksmbd.mountd
+ 
+ This provides the basic fileserver service and is the minimum needed to serve 'guest only' file shares or use a existing user database file ksmbdpwd.db.
+
+Package: libattr
+Version: 2.5.2-r2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://savannah.nongnu.org/projects/attr
+CPE-ID: cpe:/a:attr_project:attr
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: libattr_2.5.2-r2_aarch64_cortex-a53.ipk
+Size: 8465
+SHA256sum: 2146bf11efbd5d7f18d5b8d593bf548eff460ea0ff1c22cc34f9eb14525bb2cf
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-r9
+Depends: libc, avahi-dbus-daemon
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libavahi-client_0.8-r9_aarch64_cortex-a53.ipk
+Size: 22981
+SHA256sum: 56505dcaa0ae0f7dddf3c57eced74854421885419458cabf369c8a895efbc891
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-r9
+Depends: libc, dbus
+Provides: libavahi
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: libavahi-dbus-support_0.8-r9_aarch64_cortex-a53.ipk
+Size: 91816
+SHA256sum: fbd4ad49b35edc1950ec1cf2d76a3b2d14d67570a494e677c5c81d3f0e57514a
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcap-ng
+Version: 0.8.4-r1
+Depends: libc
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+URL: https://people.redhat.com/sgrubb/libcap-ng/index.html
+CPE-ID: cpe:/a:libcap-ng_project:libcap-ng
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libcap-ng_0.8.4-r1_aarch64_cortex-a53.ipk
+Size: 10265
+SHA256sum: 97a53e1192f3ed6f43474c428d4c24be1e8ab6d00df643dffc4dd49adb18bf4c
+Description:  POSIX capabilities library library
+
+Package: libcurl4
+Version: 8.7.1-r2
+Depends: libc, libmbedtls21, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+URL: http://curl.se/
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a53
+Installed-Size: 542720
+Filename: libcurl4_8.7.1-r2_aarch64_cortex-a53.ipk
+Size: 242061
+SHA256sum: d1e7c170eb04db01ec9588b604d628b4ffc1b8f9d3eaeb8a25c61c32ddda4f4e
+Description:  A client-side URL transfer library
+
+Package: libdaemon
+Version: 0.14-r5
+Depends: libc
+Section: libs
+URL: http://0pointer.de/lennart/projects/libdaemon/
+CPE-ID: cpe:/a:libdaemon_project:libdaemon
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libdaemon_0.14-r5_aarch64_cortex-a53.ipk
+Size: 11507
+SHA256sum: f2a992b4915c33c3b1a8f43b8c667d0409e3ea262e7a235057bab8f3477ea565
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.14.10-r1
+Depends: libc, libpthread
+License: AFL-2.1
+Section: utils
+URL: https://dbus.freedesktop.org/
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: aarch64_cortex-a53
+Installed-Size: 399360
+Filename: libdbus_1.14.10-r1_aarch64_cortex-a53.ipk
+Size: 147825
+SHA256sum: 47aa0e3ef708d9342689bb71f5a0e03a23e94fc02e6b3500b2c9a6c3b6a25b51
+Description:  Simple interprocess messaging system (library)
+
+Package: libevdev
+Version: 1.13.1-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://www.freedesktop.org/wiki/Software/libevdev/
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libevdev_1.13.1-r1_aarch64_cortex-a53.ipk
+Size: 34954
+SHA256sum: badbd97fc590e1f9af9a0d11e222550f4e14a324363809613870c33a6edd64f0
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libexif
+Version: 0.6.24-r1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://libexif.github.io/
+CPE-ID: cpe:/a:libexif:libexif
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: libexif_0.6.24-r1_aarch64_cortex-a53.ipk
+Size: 87679
+SHA256sum: 85ab2bad083d736303aa494331e8e81a8d9f7097033f76a752897461ae0b8fbd
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.6.2-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://libexpat.github.io/
+CPE-ID: cpe:/a:libexpat_project:libexpat
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libexpat_2.6.2-r1_aarch64_cortex-a53.ipk
+Size: 55189
+SHA256sum: c6b00ceefd86931cbd7fd16f76d001304c4553a687b46a01bc529f483bb5a2d6
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffmpeg-audio-dec
+Version: 5.1.3-r5
+Depends: libc, libpthread, libpthread, zlib, libbz2-1.0
+Conflicts: libffmpeg-full
+Provides: libffmpeg
+License: LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
+Section: libs
+URL: https://ffmpeg.org/
+CPE-ID: cpe:/a:ffmpeg:ffmpeg
+Architecture: aarch64_cortex-a53
+Installed-Size: 1914880
+Filename: libffmpeg-audio-dec_5.1.3-r5_aarch64_cortex-a53.ipk
+Size: 840559
+SHA256sum: d2a953fa7c0cffdea84ca1b08212a6456ee68ae7eb17a68a396904d2c4a49622
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains FFmpeg shared libraries for audio decoding
+
+Package: libflac
+Version: 1.4.3-r1
+Depends: libc
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+Section: libs
+URL: https://xiph.org/flac
+CPE-ID: cpe:/a:flac_project:flac
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: libflac_1.4.3-r1_aarch64_cortex-a53.ipk
+Size: 110789
+SHA256sum: 0e96ac8daccd436221349941384f0153aa30853fdbe2bb0b2dd5aecd7a0d83ee
+Description:  Free Lossless Audio Codec library
+
+Package: libgd
+Version: 2.3.3-r1
+Depends: libc, libjpeg, libpng, libwebp
+Conflicts: libgd-full
+License: GD
+Section: libs
+URL: https://libgd.github.io/
+CPE-ID: cpe:/a:libgd:libgd
+Architecture: aarch64_cortex-a53
+Installed-Size: 389120
+Filename: libgd_2.3.3-r1_aarch64_cortex-a53.ipk
+Size: 107148
+SHA256sum: 19819e19b88fca65e82b2c6c5937a48a3656279717e4e8e339cf96e8d94aa70e
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libgnutls
+Version: 3.8.5-r1
+Depends: libc, libnettle8, libgmp10, libatomic1
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://www.gnutls.org/
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: aarch64_cortex-a53
+Installed-Size: 2570240
+Filename: libgnutls_3.8.5-r1_aarch64_cortex-a53.ipk
+Size: 1026179
+SHA256sum: 7acfd05c2dd150e2be20f6637b812d996a5b60f21fe85203c2cfdfb02edc429f
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libid3tag
+Version: 0.16.3-r1
+Depends: libc, zlib
+License: GPL-2
+Section: libs
+URL: https://codeberg.org/tenacityteam/libid3tag
+CPE-ID: cpe:/a:media-libs:libid3tag
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libid3tag_0.16.3-r1_aarch64_cortex-a53.ipk
+Size: 33798
+SHA256sum: 22b51627a09cc7698425c47ded2e49c36fa86cd20bbf1b98d133b4cd32443127
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libimobiledevice-glue
+Version: 1.2.0-r1
+Depends: libc, libplist
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.libimobiledevice.org/
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libimobiledevice-glue_1.2.0-r1_aarch64_cortex-a53.ipk
+Size: 26810
+SHA256sum: d8c06e8fc5dd43e0d1801f6187f1a9f6d647c1c932dc9d2f5d9cdc550edd45d5
+Description:  libimobiledevice-glue is a library with common code used by the
+ libraries and tools around the libimobiledevice project.
+
+Package: libimobiledevice
+Version: 2024.04.16~5f083426-r1
+Depends: libc, libplist, libimobiledevice-glue, libusbmuxd, libopenssl3
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.libimobiledevice.org/
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: libimobiledevice_2024.04.16~5f083426-r1_aarch64_cortex-a53.ipk
+Size: 133977
+SHA256sum: 4de0e10701f3ba8057aba723410a72358cf60f90180610979d71c43af399e6b3
+Description:  libimobiledevice is a software library that talks the protocols to support
+ iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+
+Package: libinotifytools
+Version: 4.23.9.0-r2
+Depends: libc
+License: GPLv2
+Section: libs
+URL: https://github.com/rvoicilas/inotify-tools/wiki
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libinotifytools_4.23.9.0-r2_aarch64_cortex-a53.ipk
+Size: 18943
+SHA256sum: ad1b553b1f4b74f7ac5ee13d0e9ba62352373f78485f633f5ea64ea73cf0e62e
+Description:  inotify-tools is a C library and a set of command-line programs for
+ Linux providing a simple interface to inotify. These programs can be
+ used to monitor and act upon filesystem events. A more detailed
+ description of the programs is further down the page. The programs are
+ written in C and have no dependencies other than a Linux kernel
+ supporting inotify.
+ 
+ This package provides the libinotifytools shared library.
+
+Package: libiperf3
+Version: 3.16-r1
+Depends: libc, libatomic1
+License: BSD-3-Clause
+Section: libs
+URL: https://github.com/esnet/iperf
+CPE-ID: cpe:/a:es:iperf3
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libiperf3_3.16-r1_aarch64_cortex-a53.ipk
+Size: 75114
+SHA256sum: a7c35cbf2a69a31727876b470cd3c2a28912c6771cdc1f22d0a1e1c051454cf9
+Description:  Libiperf is a library providing an API for iperf3 functionality.
+
+Package: libjpeg-turbo
+Version: 3.0.2-r1
+Depends: libc
+Provides: libjpeg
+License: BSD-3-Clause IJG zlib
+Section: libs
+URL: https://www.libjpeg-turbo.org/
+CPE-ID: cpe:/a:libjpeg-turbo:libjpeg-turbo
+Architecture: aarch64_cortex-a53
+Installed-Size: 532480
+Filename: libjpeg-turbo_3.0.2-r1_aarch64_cortex-a53.ipk
+Size: 253117
+SHA256sum: 6ecfd68319ab230e7c3706f66a7aa0b89f991bb60a0cd0e5da88bc344bfd0294
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkmod
+Version: 32-r1
+Depends: libc, zlib
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.kernel.org/pub/linux/utils/kernel/kmod/
+CPE-ID: cpe:/a:kernel:kmod
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libkmod_32-r1_aarch64_cortex-a53.ipk
+Size: 47177
+SHA256sum: 445c0c1521fd32b106f669a643a29d10238f1add1564c69992f90cc071b7f14b
+Description:  Linux kernel module handling (library)
+
+Package: liblz4-1
+Version: 1.9.4-r1
+Depends: libc
+Provides: liblz4
+License: BSD-2-Clause
+Section: libs
+URL: https://www.lz4.org/
+ABIVersion: -1
+CPE-ID: cpe:/a:lz4_project:lz4
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: liblz4-1_1.9.4-r1_aarch64_cortex-a53.ipk
+Size: 71116
+SHA256sum: e4c5b7e85eb6e4cbf15c94f83bf10433431b11fb6775d71d921b00dad26176cb
+Description:  LZ4 is a compression codec that features a very fast encoder and an
+ even faster decoder. This package provides the liblz4 shared library.
+
+Package: liblzma
+Version: 5.4.6-r1
+Depends: libc, libpthread
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+Section: libs
+URL: https://tukaani.org/xz
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: liblzma_5.4.6-r1_aarch64_cortex-a53.ipk
+Size: 81508
+SHA256sum: e73ab6d0a3c37672c988debb9ffc74354989b348dfd2dffaf0143c6aa74c6cb1
+Description:  liblzma library from XZ Utils
+
+Package: liblzo2
+Version: 2.10-r4
+Depends: libc
+Provides: liblzo
+License: GPL-2.0-or-later
+Section: libs
+URL: http://www.oberhumer.com/opensource/lzo/
+ABIVersion: 2
+CPE-ID: cpe:/a:oberhumer:lzo
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblzo2_2.10-r4_aarch64_cortex-a53.ipk
+Size: 45459
+SHA256sum: 2ea5acea6fd5289bc41dc68cba54048384adfef8996f24c3f304f9953d281ec4
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libmagic
+Version: 5.45-r1
+Depends: libc, zlib, liblzma, libbz2-1.0
+License: BSD-2-Clause
+Section: libs
+URL: https://darwinsys.com/file/
+Architecture: aarch64_cortex-a53
+Installed-Size: 1075200
+Filename: libmagic_5.45-r1_aarch64_cortex-a53.ipk
+Size: 304630
+SHA256sum: 668f1bb9e36b9d68202581e57ef064569459c4381f23c5490be3a953389d7c59
+Description:  File type determination library
+
+Package: libminiupnpc
+Version: 2.2.3-r1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+URL: https://miniupnp.tuxfamily.org
+CPE-ID: cpe:/a:miniupnp_project:miniupnpc
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libminiupnpc_2.2.3-r1_aarch64_cortex-a53.ipk
+Size: 25846
+SHA256sum: 399fdc0623fc2e39a7c4d3e1f2308995a362e92f8583aa2fc6f8904cc25a62c1
+Description:  Lightweight UPnP library
+
+Package: libnatpmp1
+Version: 20150609-r3
+Depends: libc
+Provides: libnatpmp
+License: BSD-3-Clause
+Section: libs
+URL: https://miniupnp.tuxfamily.org/libnatpmp.html
+ABIVersion: 1
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libnatpmp1_20150609-r3_aarch64_cortex-a53.ipk
+Size: 4763
+SHA256sum: 3c446e5a40251e05aabf96ade4a2292a5f1a4794beb8b03dd1be66641fa62fd6
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libnghttp2-14
+Version: 1.61.0-r1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+CPE-ID: cpe:/a:nghttp2:nghttp2
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libnghttp2-14_1.61.0-r1_aarch64_cortex-a53.ipk
+Size: 82320
+SHA256sum: 9b3aff4b1f9ebcd293001bab65f6947155d9d2026a7fca7ac7db815d3d95e146
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libogg0
+Version: 1.3.5-r1
+Depends: libc
+Provides: libogg
+License: BSD-3-Clause
+Section: libs
+URL: https://xiph.org/ogg/
+ABIVersion: 0
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libogg0_1.3.5-r1_aarch64_cortex-a53.ipk
+Size: 19392
+SHA256sum: f546a78e46dbfcfd4cf85bd0ec32edf83654f410072bedbdbe612b35688093de
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libplist
+Version: 2.4.0-r1
+Depends: libc, libxml2
+Section: libs
+URL: https://www.libimobiledevice.org/
+CPE-ID: cpe:/a:libimobiledevice:libplist
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libplist_2.4.0-r1_aarch64_cortex-a53.ipk
+Size: 43941
+SHA256sum: dda322077f7817b261ccdb284550b8239ac0a80c863e8479b0561018f1b432a6
+Description:  A library to handle Apple Property List format whereas it's binary or XML
+
+Package: libpng
+Version: 1.6.43-r1
+Depends: libc, zlib
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+URL: http://www.libpng.org/pub/png/libpng.html
+CPE-ID: cpe:/a:libpng:libpng
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: libpng_1.6.43-r1_aarch64_cortex-a53.ipk
+Size: 112085
+SHA256sum: 092ae3dd7a9fe9bddc59c07ecef4b135606801cb64d3b316485430fe52f07024
+Description:  A PNG format files handling library
+
+Package: libqrencode
+Version: 4.1.1-r1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://fukuchi.org/works/qrencode/
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libqrencode_4.1.1-r1_aarch64_cortex-a53.ipk
+Size: 22428
+SHA256sum: fd0d85e28d5da86555d20d5c92d0e1e4b7017d358e73ff97e6e6b3a7236a296b
+Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: librrd1
+Version: 1.0.50-r6
+Depends: libc, zlib
+License: GPL-2.0-or-later
+Section: libs
+URL: http://oss.oetiker.ch/rrdtool/
+Architecture: aarch64_cortex-a53
+Installed-Size: 665600
+Filename: librrd1_1.0.50-r6_aarch64_cortex-a53.ipk
+Size: 156309
+SHA256sum: fef59dff00340dd73289da3dbd85fc3128832c7f21f26f99e738291f58f7d222
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: libseccomp
+Version: 2.5.4-r2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/seccomp/libseccomp/wiki
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libseccomp_2.5.4-r2_aarch64_cortex-a53.ipk
+Size: 49084
+SHA256sum: 880ce440c2d65f9718ec3d15418f96d6eeac50e827ba6b57da9836fa53ac3d5a
+Description:  This package contains the seccomp library.
+
+Package: libsensors5
+Version: 3.6.0-r1
+Depends: libc, sysfsutils
+Provides: libsensors
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+URL: https://hwmon.wiki.kernel.org/lm_sensors
+ABIVersion: 5
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libsensors5_3.6.0-r1_aarch64_cortex-a53.ipk
+Size: 24650
+SHA256sum: 5e7167a00f2f1b19a75d33185502c5a86ffa5b8e1980840713d21ed6a6f95a7a
+Description:  lm-sensors libraries
+
+Package: libsqlite3-0
+Version: 3410200-r1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+URL: http://www.sqlite.org/
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: aarch64_cortex-a53
+Installed-Size: 1402880
+Filename: libsqlite3-0_3410200-r1_aarch64_cortex-a53.ipk
+Size: 708038
+SHA256sum: c80bbcbfde594ec434c5bc3ac6614dce09285dc4be854f62ebfceef183103353
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtasn1
+Version: 4.19.0-r2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://www.gnu.org/software/libtasn1/
+CPE-ID: cpe:/a:gnu:libtasn1
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libtasn1_4.19.0-r2_aarch64_cortex-a53.ipk
+Size: 38540
+SHA256sum: 387db523d192aace65e24d7734d0b6bf8723fff505db1fd9f17adf2940aa2e86
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libtirpc
+Version: 1.3.3-r1
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: libs
+URL: http://libtirpc.sourceforge.net/
+CPE-ID: cpe:/a:libtirpc_project:libtirpc
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libtirpc_1.3.3-r1_aarch64_cortex-a53.ipk
+Size: 74344
+SHA256sum: d5baa16d3a89fd274d88f410508cc5f4b17eaf71dafd15b1d010117b81afdbf1
+Description:  Library TI RPC for RPC bindings
+
+Package: libudev-zero
+Version: 1.0.3-r1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+License: MIT
+Section: libs
+URL: https://github.com/illiliti/libudev-zero
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libudev-zero_1.0.3-r1_aarch64_cortex-a53.ipk
+Size: 12210
+SHA256sum: 8c2c7dc1640be624142759e9d41b3bdc286583e25e923f33610bd4ed988fc819
+Description:  Drop-in replacement for libudev
+
+Package: liburing
+Version: 2.5-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://git.kernel.dk/cgit/liburing
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: liburing_2.5-r1_aarch64_cortex-a53.ipk
+Size: 9010
+SHA256sum: 66aed2cda61d3bb7a1e59d63338262b287cdbec5689957bf5f1b57620fdf6b20
+Description:  liburing provides helpers to setup and teardown io_uring instances,
+ and also a simplified interface for applications that don't need
+ (or want) to deal with the full kernel side implementation.
+ For more info on io_uring, please see: https://kernel.dk/io_uring.pdf
+
+Package: libusbmuxd
+Version: 2.1.0-r1
+Depends: libc, libplist, libimobiledevice-glue, libpthread, libxml2, zlib
+Section: libs
+URL: https://www.libimobiledevice.org/
+CPE-ID: cpe:/a:libimobiledevice:libusbmuxd
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libusbmuxd_2.1.0-r1_aarch64_cortex-a53.ipk
+Size: 15422
+SHA256sum: b88210bb75d3c11ba5514e8421739edbba47af242170b736de09ecfe6dd6e269
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+ This package contains the libusbmuxd shared library.
+
+Package: libvorbis
+Version: 1.3.7-r2
+Depends: libc, libogg0
+License: BSD-3-Clause
+Section: libs
+URL: http://xiph.org/vorbis/
+CPE-ID: cpe:/a:xiph.org:libvorbis
+Architecture: aarch64_cortex-a53
+Installed-Size: 993280
+Filename: libvorbis_1.3.7-r2_aarch64_cortex-a53.ipk
+Size: 206891
+SHA256sum: f9c04097632683024256ab92bee44c8b4bbc74576e1ee578b3549c93d65ba435
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
+
+Package: libwebp
+Version: 1.4.0-r1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+URL: https://www.webmproject.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Filename: libwebp_1.4.0-r1_aarch64_cortex-a53.ipk
+Size: 292184
+SHA256sum: 9000e44e217d4252a41d9f82fd5f904cd50c5e7b8a10060651e947677cd813fc
+Description:  The libwebp package contains a library for the WebP format.
+
+Package: lm-sensors
+Version: 3.6.0-r1
+Depends: libc, sysfsutils, libsensors5
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: utils
+URL: https://hwmon.wiki.kernel.org/lm_sensors
+CPE-ID: cpe:/a:lm_sensors:lm_sensors
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: lm-sensors_3.6.0-r1_aarch64_cortex-a53.ipk
+Size: 10232
+SHA256sum: fe2564997f424b6ea9723436c9811ef3204555261b7fb707de034773f4a49b28
+Description:  utility to read hardware sensor data
+
+Package: minidlna
+Version: 1.3.3-r1
+Depends: libc, libpthread, libexif, libjpeg, libsqlite3-0, libffmpeg, libid3tag, libflac, libvorbis
+License: GPL-2.0-or-later BSD-3-Clause
+Section: multimedia
+URL: http://minidlna.sourceforge.net/
+CPE-ID: cpe:/a:readymedia_project:readymedia
+Architecture: aarch64_cortex-a53
+Installed-Size: 368640
+Filename: minidlna_1.3.3-r1_aarch64_cortex-a53.ipk
+Size: 147276
+SHA256sum: 09387c35e625f2a8b3af7c0435291cb9e7b14d2e57cd51c87eb49fb05543b6f8
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
+Package: miniupnpd-nftables
+Version: 2.3.3-r2
+Depends: libc, libcap-ng, libmnl0, libuuid1, libnftnl11
+Conflicts: miniupnpd-iptables
+Provides: miniupnpd
+License: BSD-3-Clause
+Section: net
+URL: https://miniupnp.tuxfamily.org/
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_cortex-a53
+Installed-Size: 296960
+Filename: miniupnpd-nftables_2.3.3-r2_aarch64_cortex-a53.ipk
+Size: 98876
+SHA256sum: 66249c26509f556cc477217a7b1b8d766c656eb85cfca1d413c585dd0c31d85b
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon (nftables)
+
+Package: openvpn-openssl
+Version: 2.6.10-r1
+Depends: libc, kmod-tun, libcap-ng, liblzo2, liblz4-1, libopenssl3
+Provides: openvpn, openvpn-crypto
+License: GPL-2.0
+Section: net
+URL: http://openvpn.net
+CPE-ID: cpe:/a:openvpn:openvpn
+Architecture: aarch64_cortex-a53
+Installed-Size: 706560
+Filename: openvpn-openssl_2.6.10-r1_aarch64_cortex-a53.ipk
+Size: 300310
+SHA256sum: d2969020e3545d5ac7f814f2271d727cd3ffbc23f1d07f2c94aaa43abb75d3d2
+Description:  Open source VPN solution using OpenSSL
+
+Package: pbr
+Version: 1.1.4-r16
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
+Conflicts: vpnbypass, vpn-policy-routing
+Provides: vpnbypass, vpn-policy-routing
+License: AGPL-3.0-or-later
+Section: net
+URL: https://docs.openwrt.melmac.net/pbr/
+Architecture: all
+Installed-Size: 153600
+Filename: pbr_1.1.4-r16_all.ipk
+Size: 26624
+SHA256sum: cdefcf6d6c9e7d3a0fe4acb07ddd99bf0b6e0de4d31bf56b72098330bc0a0e0e
+Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
+ This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
+
+Package: qrencode
+Version: 4.1.1-r1
+Depends: libc, libqrencode
+License: LGPL-2.1-or-later
+Section: utils
+URL: http://fukuchi.org/works/qrencode/
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: qrencode_4.1.1-r1_aarch64_cortex-a53.ipk
+Size: 12015
+SHA256sum: 25190d8ba63c051bdcbc508894af8f78825d8e8d722096e0ff443edc4d79979f
+Description:  Qrencode is a C program for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: rrdtool1
+Version: 1.0.50-r6
+Depends: libc, librrd1
+License: GPL-2.0-or-later
+Section: utils
+URL: http://oss.oetiker.ch/rrdtool/
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: rrdtool1_1.0.50-r6_aarch64_cortex-a53.ipk
+Size: 13775
+SHA256sum: 5b5158bd3589a187e4ac2ba39a5a4ab013a058b558eac01e5140926ae4c0d48e
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: rsync
+Version: 3.3.0-r2
+Depends: libc, libpopt0, zlib
+License: GPL-3.0-or-later
+Section: net
+URL: https://rsync.samba.org/
+CPE-ID: cpe:/a:rsync:rsync
+Architecture: aarch64_cortex-a53
+Installed-Size: 481280
+Filename: rsync_3.3.0-r2_aarch64_cortex-a53.ipk
+Size: 217922
+SHA256sum: 251717e4ee8591f11922ea533e4df313064c8724b87c8f007be9dcb0039ba2b2
+Description:  rsync is a program that allows files to be copied to and from remote machines
+ in much the same way as rcp. It has many more options than rcp, and uses the
+ rsync remote-update protocol to greatly speed up file transfers when the
+ destination file already exists.
+ 
+ The rsync remote-update protocol allows rsync to transfer just the differences
+ between two sets of files across the network link.
+
+Package: runc
+Version: 1.1.12-r1
+Depends: libc, libseccomp
+License: Apache-2.0
+Section: utils
+URL: https://www.opencontainers.org/
+CPE-ID: cpe:/a:linuxfoundation:runc
+Architecture: aarch64_cortex-a53
+Installed-Size: 9768960
+Filename: runc_1.1.12-r1_aarch64_cortex-a53.ipk
+Size: 3427341
+SHA256sum: 31de324a68a5a78b32c22a90ddbe3ed5bd85ab0d30752bc483c6e9fffe64dd26
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: samba4-libs
+Version: 4.18.8-r1
+Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl3, libpthread, liburing, attr, libavahi-client
+License: GPL-3.0-only
+Section: net
+URL: https://www.samba.org/
+CPE-ID: cpe:/a:samba:samba
+Architecture: aarch64_cortex-a53
+Installed-Size: 42137600
+Filename: samba4-libs_4.18.8-r1_aarch64_cortex-a53.ipk
+Size: 10081683
+SHA256sum: 77ba73012ae9fcbecd808c2a54260a3b2e7f400d99941a3ababb89e94275c9e7
+Description:  Samba 4.18.8 libs
+
+Package: samba4-server
+Version: 4.18.8-r1
+Depends: libc, samba4-libs
+Conflicts: samba36-server
+License: GPL-3.0-only
+Section: net
+URL: https://www.samba.org/
+CPE-ID: cpe:/a:samba:samba
+Architecture: aarch64_cortex-a53
+Installed-Size: 993280
+Filename: samba4-server_4.18.8-r1_aarch64_cortex-a53.ipk
+Size: 273935
+SHA256sum: 48fa0509a124a9956e2bea235c4be7e5f67ff4dff355ed633d2ae357107cd7b4
+Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
+ (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
+ 
+ This provides the basic fileserver service and is the minimum needed to serve file shares.
+ HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
+
+Package: socat
+Version: 1.8.0.0-r2
+Depends: libc, libpthread, librt
+License: GPL-2.0-or-later OpenSSL
+Section: net
+URL: http://www.dest-unreach.org/socat/
+CPE-ID: cpe:/a:dest-unreach:socat
+Architecture: aarch64_cortex-a53
+Installed-Size: 409600
+Filename: socat_1.8.0.0-r2_aarch64_cortex-a53.ipk
+Size: 143754
+SHA256sum: c0f652588f25ed9d01d4fa0e58608b2487e5c84b648a3af0882afb7fa318a9fb
+Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
+ transfers data between them.
+ Data channels may be files, pipes, devices (terminal or modem, etc.), or
+ sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking,
+ logging and tracing, different modes for interprocess communication and
+ many more options.
+
+Package: sqm-scripts
+Version: 1.6.0-r1
+Depends: libc, tc, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt
+License: GPL-2.0-only
+Section: net
+Architecture: all
+Installed-Size: 92160
+Filename: sqm-scripts_1.6.0-r1_all.ipk
+Size: 19379
+SHA256sum: fc1c1e4ffcfa6caae4b1884d9e044528c956ae32a42170399e0fb592643324b9
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: sudo
+Version: 1.9.15p5-r1
+Depends: libc
+License: ISC
+Section: admin
+URL: https://www.sudo.ws/
+CPE-ID: cpe:/a:sudo_project:sudo
+Architecture: aarch64_cortex-a53
+Installed-Size: 1761280
+Filename: sudo_1.9.15p5-r1_aarch64_cortex-a53.ipk
+Size: 587280
+SHA256sum: 86d00eabdc2d62a2e3964a4912c3ae4650536fa42e185623773771033a74d748
+Description:  Sudo (su "do") allows a system administrator to delegate authority to
+ give certain users (or groups of users) the ability to run some (or
+ all) commands as root or another user while providing an audit trail of
+ the commands and their arguments.
+
+Package: tailscale
+Version: 1.66.3-r1
+Depends: libc, ca-bundle, kmod-tun
+Provides: tailscaled
+License: BSD-3-Clause
+Section: net
+URL: https://tailscale.com
+Architecture: aarch64_cortex-a53
+Installed-Size: 23490560
+Filename: tailscale_1.66.3-r1_aarch64_cortex-a53.ipk
+Size: 8978096
+SHA256sum: 6c3b1e82ed6dc38d7f4ad24d8e5120716e64b111938b983c329078166708644d
+Description:  It creates a secure network between your servers, computers,
+ and cloud instances. Even when separated by firewalls or subnets.
+
+Package: tini
+Version: 0.19.0-r2
+Depends: libc
+License: MIT
+Section: utils
+URL: https://github.com/krallin/tini
+CPE-ID: cpe:/a:tini_project:tini
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: tini_0.19.0-r2_aarch64_cortex-a53.ipk
+Size: 41556
+SHA256sum: 1a2478b6d779e62d72c2348c9ed596f25bbfc666f2d8f1c54564dd12c583257b
+Description:  A tiny but valid init process for containers.
+
+Package: uhubctl
+Version: 2.5.0-r1
+Depends: libc, libusb-1.0-0
+License: GPL-2.0-only
+Section: utils
+URL: https://github.com/mvp/uhubctl
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: uhubctl_2.5.0-r1_aarch64_cortex-a53.ipk
+Size: 9646
+SHA256sum: 29366366cef8d69505f674ac45c972b859e91ff6ae624e13e9cc70fe9202cdd2
+Description:  uhubctl is a utility that allows you to control USB power on USB hubs that
+ implement per-port or ganged power switching.
+
+Package: usbids
+Version: 0.381-r1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+URL: https://github.com/vcrhonek/hwdata
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Filename: usbids_0.381-r1_aarch64_cortex-a53.ipk
+Size: 255668
+SHA256sum: 252a95c69ebd87f3146f6e072cb382958b9796908c480c5916ce3722088e9c1e
+Description:  USB ID list
+
+Package: usbmuxd
+Version: 2023.10.11~360619c5-r1
+Depends: libc, libusb-1.0-0, libusbmuxd, libopenssl3, libimobiledevice, usbutils
+License: GPL-2.0-or-later
+Section: utils
+URL: https://www.libimobiledevice.org/
+CPE-ID: cpe:/a:libimobiledevice:usbmuxd
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: usbmuxd_2023.10.11~360619c5-r1_aarch64_cortex-a53.ipk
+Size: 38160
+SHA256sum: 332fb12107a807b9c3060c4276552e7b0145c142de58872cbb1467d39d335489
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+
+Package: usbutils
+Version: 017-r1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread, usbids
+License: GPL-2.0-only
+Section: utils
+URL: http://www.linux-usb.org/
+Architecture: aarch64_cortex-a53
+Installed-Size: 307200
+Filename: usbutils_017-r1_aarch64_cortex-a53.ipk
+Size: 63074
+SHA256sum: 29353586dc857e91815fddb2919d700855a8be7bfbf5b458b7e68230f994549b
+Description:  USB devices listing utilities
+
+Package: vnstat2
+Version: 2.12-r1
+Depends: libc, libsqlite3-0
+Conflicts: vnstat
+License: GPL-2.0-only
+Section: net
+URL: https://humdi.net/vnstat/
+Architecture: aarch64_cortex-a53
+Installed-Size: 348160
+Filename: vnstat2_2.12-r1_aarch64_cortex-a53.ipk
+Size: 113933
+SHA256sum: fe3f782bd46d789de3122d7887d796cc35db6081bba2b72e365aa7c8a9378b86
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati2
+Version: 2.12-r1
+Depends: libc, libsqlite3-0, vnstat2, libgd
+Conflicts: vnstat
+License: GPL-2.0-only
+Section: net
+URL: https://humdi.net/vnstat/
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: vnstati2_2.12-r1_aarch64_cortex-a53.ipk
+Size: 52688
+SHA256sum: 7a691000519053ef06a0b0ab1606c76c9bf3dc7ef8785d2391212bb050bc54a7
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat. However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: wget-ssl
+Version: 1.24.5-r1
+Depends: libc, libpcre2, zlib, libopenssl3, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+URL: https://www.gnu.org/software/wget/index.html
+CPE-ID: cpe:/a:gnu:wget
+Architecture: aarch64_cortex-a53
+Installed-Size: 552960
+Filename: wget-ssl_1.24.5-r1_aarch64_cortex-a53.ipk
+Size: 250532
+SHA256sum: cb6d03f97062bfd44f80f3e4b603038e5c1ae975a7d12d8c20df97b1d506b944
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wifischedule
+Version: 1.0.5-r2
+Depends: libc
+License: PRPL
+Section: net
+Architecture: all
+Installed-Size: 20480
+Filename: wifischedule_1.0.5-r2_all.ipk
+Size: 4631
+SHA256sum: 976f87942bc552ffd9d751bdd7392cfa5da575d5faadefe93c073d415c04342d
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: wsdd2
+Version: 2023.12.21~b676d8ac-r1
+Depends: libc
+License: GPL-3.0-only
+Section: net
+URL: https://github.com/Netgear/wsdd2
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: wsdd2_2023.12.21~b676d8ac-r1_aarch64_cortex-a53.ipk
+Size: 22569
+SHA256sum: 20cad046ec33f350dff27def082cd91af1b06e64f6ae0d1ae7734a89475e619b
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
+Package: zerotier
+Version: 1.14.0-r1
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
+License: BSL 1.1
+Section: net
+URL: https://www.zerotier.com
+Architecture: aarch64_cortex-a53
+Installed-Size: 1853440
+Filename: zerotier_1.14.0-r1_aarch64_cortex-a53.ipk
+Size: 833262
+SHA256sum: c9b72dadb582514f5491beddaf8359561c2cdf220ffe6cff8417945030d015f6
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
