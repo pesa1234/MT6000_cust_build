@@ -1,7 +1,7 @@
 GL.iNET - MT 6000 custom build with LuCi.
 
 What is present?
-- WED enabled
+- WED configurable on Luci
 - LuCi installed
 - ksmbd server with automount
 - openvpn-openssl
@@ -9,7 +9,6 @@ What is present?
 - wireguard
 - PBR
 - irqbalance activated
-- latest testing kernel 6.6.x
 
 Compiled to optimize speed
 
