@@ -1,0 +1,505 @@
+root@MT6000:~# dmesg
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd034]
+[    0.000000] Linux version 6.6.50 (ubundesk@ubundesk-B560M) (aarch64-openwrt-linux-musl-gcc (OpenWrt GCC 13.3.0 r27310-90355f8145) 13.3.0, GNU ld (GNU Binutils) 2.42) #0 SMP Tue Sep 10 15:16:10 2024
+[    0.000000] Machine model: GL.iNet GL-MT6000
+[    0.000000] OF: reserved mem: 0x0000000042ff0000..0x0000000042ffffff (64 KiB) map non-reusable ramoops@42ff0000
+[    0.000000] OF: reserved mem: 0x0000000043000000..0x000000004302ffff (192 KiB) nomap non-reusable secmon@43000000
+[    0.000000] OF: reserved mem: 0x000000004fc00000..0x000000004fcfffff (1024 KiB) nomap non-reusable wmcpu-reserved@4fc00000
+[    0.000000] OF: reserved mem: 0x000000004fd00000..0x000000004fd3ffff (256 KiB) nomap non-reusable wo-emi@4fd00000
+[    0.000000] OF: reserved mem: 0x000000004fd40000..0x000000004fd7ffff (256 KiB) nomap non-reusable wo-emi@4fd40000
+[    0.000000] OF: reserved mem: 0x000000004fd80000..0x000000004ffbffff (2304 KiB) nomap non-reusable wo-data@4fd80000
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000040000000-0x000000007fffffff]
+[    0.000000]   DMA32    empty
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000040000000-0x0000000042ffffff]
+[    0.000000]   node   0: [mem 0x0000000043000000-0x000000004302ffff]
+[    0.000000]   node   0: [mem 0x0000000043030000-0x000000004fbfffff]
+[    0.000000]   node   0: [mem 0x000000004fc00000-0x000000004ffbffff]
+[    0.000000]   node   0: [mem 0x000000004ffc0000-0x000000007fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000040000000-0x000000007fffffff]
+[    0.000000] psci: probing for conduit method from DT.
+[    0.000000] psci: PSCIv1.1 detected in firmware.
+[    0.000000] psci: Using standard PSCI v0.2 function IDs
+[    0.000000] psci: MIGRATE_INFO_TYPE not supported.
+[    0.000000] psci: SMC Calling Convention v1.2
+[    0.000000] percpu: Embedded 18 pages/cpu s34600 r8192 d30936 u73728
+[    0.000000] pcpu-alloc: s34600 r8192 d30936 u73728 alloc=18*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] Detected VIPT I-cache on CPU0
+[    0.000000] CPU features: detected: GIC system register CPU interface
+[    0.000000] CPU features: kernel page table isolation disabled by kernel configuration
+[    0.000000] alternatives: applying boot alternatives
+[    0.000000] Kernel command line:  root=PARTLABEL=rootfs rootwait
+[    0.000000] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 258048
+[    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    0.000000] software IO TLB: SWIOTLB bounce buffer size adjusted to 1MB
+[    0.000000] software IO TLB: area num 4.
+[    0.000000] software IO TLB: mapped [mem 0x000000007fb05000-0x000000007fc05000] (1MB)
+[    0.000000] Memory: 1009984K/1048576K available (8704K kernel code, 898K rwdata, 2544K rodata, 448K init, 287K bss, 38592K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] rcu: Hierarchical RCU implementation.
+[    0.000000] 	Tracing variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] GICv3: GIC: Using split EOI/Deactivate mode
+[    0.000000] GICv3: 640 SPIs implemented
+[    0.000000] GICv3: 0 Extended SPIs implemented
+[    0.000000] Root IRQ handler: gic_handle_irq
+[    0.000000] GICv3: GICv3 features: 16 PPIs
+[    0.000000] GICv3: CPU0: found redistributor 0 region 0:0x000000000c080000
+[    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.000000] arch_timer: cp15 timer(s) running at 13.00MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x2ff89eacb, max_idle_ns: 440795202429 ns
+[    0.000000] sched_clock: 56 bits at 13MHz, resolution 76ns, wraps every 4398046511101ns
+[    0.000058] Calibrating delay loop (skipped), value calculated using timer frequency.. 26.00 BogoMIPS (lpj=130000)
+[    0.000065] pid_max: default: 32768 minimum: 301
+[    0.002062] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+[    0.002071] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+[    0.003614] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    0.004004] RCU Tasks Trace: Setting shift to 2 and lim to 1 rcu_task_cb_adjust=1.
+[    0.004110] rcu: Hierarchical SRCU implementation.
+[    0.004112] rcu: 	Max phase no-delay instances is 1000.
+[    0.004416] smp: Bringing up secondary CPUs ...
+[    0.004673] Detected VIPT I-cache on CPU1
+[    0.004709] GICv3: CPU1: found redistributor 1 region 0:0x000000000c0a0000
+[    0.004736] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
+[    0.005027] Detected VIPT I-cache on CPU2
+[    0.005046] GICv3: CPU2: found redistributor 2 region 0:0x000000000c0c0000
+[    0.005059] CPU2: Booted secondary processor 0x0000000002 [0x410fd034]
+[    0.005317] Detected VIPT I-cache on CPU3
+[    0.005333] GICv3: CPU3: found redistributor 3 region 0:0x000000000c0e0000
+[    0.005343] CPU3: Booted secondary processor 0x0000000003 [0x410fd034]
+[    0.005369] smp: Brought up 1 node, 4 CPUs
+[    0.005373] SMP: Total of 4 processors activated.
+[    0.005375] CPU features: detected: 32-bit EL0 Support
+[    0.005377] CPU features: detected: CRC32 instructions
+[    0.005403] CPU features: emulated: Privileged Access Never (PAN) using TTBR0_EL1 switching
+[    0.005406] CPU: All CPU(s) started at EL2
+[    0.005407] alternatives: applying system-wide alternatives
+[    0.008117] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.008133] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[    0.009004] pinctrl core: initialized pinctrl subsystem
+[    0.009662] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.010191] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+[    0.010209] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.010226] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.010513] thermal_sys: Registered thermal governor 'fair_share'
+[    0.010516] thermal_sys: Registered thermal governor 'bang_bang'
+[    0.010517] thermal_sys: Registered thermal governor 'step_wise'
+[    0.010519] thermal_sys: Registered thermal governor 'user_space'
+[    0.010562] ASID allocator initialised with 65536 entries
+[    0.011308] pstore: Using crash dump compression: deflate
+[    0.011312] pstore: Registered ramoops as persistent store backend
+[    0.011314] ramoops: using 0x10000@0x42ff0000, ecc: 0
+[    0.016818] Modules: 29504 pages in range for non-PLT usage
+[    0.016826] Modules: 521024 pages in range for PLT usage
+[    0.017747] cryptd: max_cpu_qlen set to 1000
+[    0.019242] SCSI subsystem initialized
+[    0.019352] libata version 3.00 loaded.
+[    0.020481] clocksource: Switched to clocksource arch_sys_counter
+[    0.022171] NET: Registered PF_INET protocol family
+[    0.022262] IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.023240] tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes, linear)
+[    0.023251] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.023259] TCP established hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    0.023294] TCP bind hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.023458] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.023535] UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+[    0.023551] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+[    0.023693] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.023723] PCI: CLS 0 bytes, default 64
+[    0.024633] workingset: timestamp_bits=46 max_order=18 bucket_order=0
+[    0.027900] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.027903] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
+[    0.053393] Serial: 8250/16550 driver, 3 ports, IRQ sharing disabled
+[    0.054361] printk: console [ttyS0] disabled
+[    0.074683] 11002000.serial: ttyS0 at MMIO 0x11002000 (irq = 116, base_baud = 2500000) is a ST16650V2
+[    0.074722] printk: console [ttyS0] enabled
+[    0.836216] mtk_rng 1020f000.rng: registered RNG driver
+[    0.844247] loop: module loaded
+[    0.982144] i2c_dev: i2c /dev entries driver
+[    0.987704] mtk-wdt 1001c000.watchdog: Watchdog enabled (timeout=31 sec, nowayout=0)
+[    0.996495] NET: Registered PF_INET6 protocol family
+[    1.002158] Segment Routing with IPv6
+[    1.005834] In-situ OAM (IOAM) with IPv6
+[    1.009774] NET: Registered PF_PACKET protocol family
+[    1.014896] 8021q: 802.1Q VLAN Support v1.8
+[    1.078901] mtk-msdc 11230000.mmc: Final PAD_DS_TUNE: 0x14414
+[    1.085099] mmc0: new HS400 MMC card at address 0001
+[    1.091155] mmcblk0: mmc0:0001 8GTF4R 7.28 GiB
+[    1.096619] GPT:Primary header thinks Alt. header is not at the end of the disk.
+[    1.104013] GPT:1 != 15269887
+[    1.106966] GPT:Alternate GPT header not at the end of the disk.
+[    1.112953] GPT:1 != 15269887
+[    1.115905] GPT: Use GNU Parted to correct GPT errors.
+[    1.121042]  mmcblk0: p1 p2 p3 p4 p5 p6 p7
+[    1.126290] mmcblk0boot0: mmc0:0001 8GTF4R 4.00 MiB
+[    1.132028] mmcblk0boot1: mmc0:0001 8GTF4R 4.00 MiB
+[    1.137135] mmcblk0rpmb: mmc0:0001 8GTF4R 512 KiB, chardev (251:0)
+[    1.883447] mtk_soc_eth 15100000.ethernet eth0: mediatek frame engine at 0xffffffc081c00000, irq 119
+[    1.893366] mtk_soc_eth 15100000.ethernet eth1: mediatek frame engine at 0xffffffc081c00000, irq 119
+[    2.000901] mt7530-mdio mdio-bus:1f: configuring for fixed/2500base-x link mode
+[    2.009859] mt7530-mdio mdio-bus:1f: Link is Up - 2.5Gbps/Full - flow control rx/tx
+[    2.020592] mt7530-mdio mdio-bus:1f lan2 (uninitialized): PHY [mt7530-0:00] driver [MediaTek MT7531 PHY] (irq=124)
+[    2.042821] mt7530-mdio mdio-bus:1f lan3 (uninitialized): PHY [mt7530-0:01] driver [MediaTek MT7531 PHY] (irq=125)
+[    2.064714] mt7530-mdio mdio-bus:1f lan4 (uninitialized): PHY [mt7530-0:02] driver [MediaTek MT7531 PHY] (irq=126)
+[    2.086633] mt7530-mdio mdio-bus:1f lan5 (uninitialized): PHY [mt7530-0:03] driver [MediaTek MT7531 PHY] (irq=127)
+[    2.330624] mt7530-mdio mdio-bus:1f lan1 (uninitialized): PHY [mdio-bus:07] driver [RTL8221B-VB-CG 2.5Gbps PHY (C45)] (irq=62)
+[    2.342718] mtk_soc_eth 15100000.ethernet eth0: entered promiscuous mode
+[    2.349431] DSA: tree 0 setup
+[    2.352632] clk: Disabling unused clocks
+[    2.359112] VFS: Mounted root (squashfs filesystem) readonly on device 179:7.
+[    2.366410] Freeing unused kernel memory: 448K
+[    2.370905] Run /sbin/init as init process
+[    2.374983]   with arguments:
+[    2.377935]     /sbin/init
+[    2.380631]   with environment:
+[    2.383755]     HOME=/
+[    2.386099]     TERM=linux
+[    2.480951] init: Console is alive
+[    2.484447] init: - watchdog -
+[    2.828713] kmodloader: loading kernel modules from /etc/modules-boot.d/*
+[    2.850375] usbcore: registered new interface driver usbfs
+[    2.855937] usbcore: registered new interface driver hub
+[    2.861278] usbcore: registered new device driver usb
+[    2.871332] gpio_button_hotplug: loading out-of-tree module taints kernel.
+[    2.883607] xhci-mtk 11200000.usb: xHCI Host Controller
+[    2.888840] xhci-mtk 11200000.usb: new USB bus registered, assigned bus number 1
+[    2.899318] xhci-mtk 11200000.usb: hcc params 0x01403f99 hci version 0x110 quirks 0x0000000000200010
+[    2.908490] xhci-mtk 11200000.usb: irq 128, io mem 0x11200000
+[    2.914328] xhci-mtk 11200000.usb: xHCI Host Controller
+[    2.919539] xhci-mtk 11200000.usb: new USB bus registered, assigned bus number 2
+[    2.926927] xhci-mtk 11200000.usb: Host supports USB 3.2 Enhanced SuperSpeed
+[    2.934355] hub 1-0:1.0: USB hub found
+[    2.938112] hub 1-0:1.0: 2 ports detected
+[    2.942478] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    2.950848] hub 2-0:1.0: USB hub found
+[    2.954610] hub 2-0:1.0: 1 port detected
+[    2.963078] usbcore: registered new interface driver usb-storage
+[    2.969277] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
+[    2.981708] init: - preinit -
+[    3.254781] mtk_soc_eth 15100000.ethernet eth0: configuring for fixed/2500base-x link mode
+[    3.263250] mtk_soc_eth 15100000.ethernet eth0: Link is Up - 2.5Gbps/Full - flow control rx/tx
+[    3.281369] mt7530-mdio mdio-bus:1f lan1: configuring for phy/2500base-x link mode
+[    3.400492] usb 1-2: new high-speed USB device number 2 using xhci-mtk
+[    3.593988] hub 1-2:1.0: USB hub found
+[    3.601626] hub 1-2:1.0: 4 ports detected
+[    4.620484] usb 1-2.3: new high-speed USB device number 3 using xhci-mtk
+[    4.817539] usb-storage 1-2.3:1.0: USB Mass Storage device detected
+[    4.824172] scsi host0: usb-storage 1-2.3:1.0
+[    4.970483] usb 1-2.4: new high-speed USB device number 4 using xhci-mtk
+[    5.568246] loop0: detected capacity change from 0 to 15178752
+[    5.610498] loop0: detected capacity change from 15178752 to 15150848
+[    5.679822] F2FS-fs (loop0): Mounted with checkpoint version = 30a3e88e
+[    5.686954] mount_root: switching to f2fs overlay
+[    5.692352] overlayfs: null uuid detected in lower fs '/', falling back to xino=off,index=off,nfs_export=off.
+[    5.703517] urandom-seed: Seeding with /etc/urandom.seed
+[    5.742744] random: procd: uninitialized urandom read (4 bytes read)
+[    5.750385] procd: - early -
+[    5.753325] procd: - watchdog -
+[    5.845339] scsi 0:0:0:0: Direct-Access     Kingston DataTraveler 3.0      PQ: 0 ANSI: 6
+[    5.855101] sd 0:0:0:0: [sda] 60437492 512-byte logical blocks: (30.9 GB/28.8 GiB)
+[    5.863074] sd 0:0:0:0: [sda] Write Protect is off
+[    5.867868] sd 0:0:0:0: [sda] Mode Sense: 4f 00 00 00
+[    5.873323] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[    5.885368]  sda: sda1
+[    5.888041] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[    6.387699] procd: - watchdog -
+[    6.401971] procd: - ubus -
+[    7.144047] F2FS-fs (sda1): Mounted with checkpoint version = 61809e38
+[   11.350714] random: crng init done
+[   11.359158] procd: - init -
+[   11.554666] kmodloader: loading kernel modules from /etc/modules.d/*
+[   11.582357] tun: Universal TUN/TAP device driver, 1.6
+[   11.591557] cryptodev: driver 1.13 loaded.
+[   11.596562] GACT probability on
+[   11.600267] Mirror/redirect action on
+[   11.608052] u32 classifier
+[   11.610780]     input device check on
+[   11.614425]     Actions configured
+[   11.622610] Simple TC action Loaded
+[   11.634261] ntfs3: Enabled Linux POSIX ACLs support
+[   11.641420] crypto-safexcel 10320000.crypto: EIP97:230(0,1,4,4)-HIA:270(0,5,5),PE:150/433(alg:7fcdfc00)/0/0/0
+[   11.680320] urngd: v1.0.2 started.
+[   11.683963] Loading modules backported from Linux version v6.9.9-0-g28fdf4518483
+[   11.691427] Backport generated by backports.git v6.1.97-1-29-gf1d24a3683b2
+[   11.710155] xt_time: kernel timezone is -0000
+[   14.074294] mt798x-wmac 18000000.wifi: HW/SW Version: 0x8a108a10, Build Time: 20240823160656a
+[   14.074294] 
+[   14.179132] mt798x-wmac 18000000.wifi: WM Firmware Version: ____000000, Build Time: 20240823160721
+[   14.263884] mt798x-wmac 18000000.wifi: WA Firmware Version: DEV_000000, Build Time: 20240823160840
+[   14.412953] mt798x-wmac 18000000.wifi: registering led 'mt76-phy0'
+[   14.451788] mt798x-wmac 18000000.wifi: registering led 'mt76-phy1'
+[   18.286810] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+[   18.294644] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[   18.308853] rtl8192cu: Chip version 0x11
+[   18.361130] rtl8192cu: Board Type 0
+[   18.364684] rtl_usb: rx_max_size 15360, rx_urb_num 8, in_ep 1
+[   18.370450] rtl8192cu: Loading firmware rtlwifi/rtl8192cufw_TMSC.bin
+[   18.377083] ieee80211 phy2: Selected rate control algorithm 'rtl_rc'
+[   18.383820] usbcore: registered new interface driver rtl8192cu
+[   18.390215] kmodloader: done loading kernel modules from /etc/modules.d/*
+[   21.359305] mtk_soc_eth 15100000.ethernet eth0: Link is Down
+[   21.377496] mtk_soc_eth 15100000.ethernet eth0: configuring for fixed/2500base-x link mode
+[   21.385931] mtk_soc_eth 15100000.ethernet eth0: Link is Up - 2.5Gbps/Full - flow control rx/tx
+[   21.388055] mt7530-mdio mdio-bus:1f lan1: configuring for phy/2500base-x link mode
+[   21.441433] br-lan: port 1(lan1) entered blocking state
+[   21.446666] br-lan: port 1(lan1) entered disabled state
+[   21.451998] mt7530-mdio mdio-bus:1f lan1: entered allmulticast mode
+[   21.458262] mtk_soc_eth 15100000.ethernet eth0: entered allmulticast mode
+[   21.467795] mt7530-mdio mdio-bus:1f lan1: entered promiscuous mode
+[   21.485843] mt7530-mdio mdio-bus:1f lan2: configuring for phy/gmii link mode
+[   22.004585] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   22.013636] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   22.022096] br-lan: port 2(lan2) entered blocking state
+[   22.027305] br-lan: port 2(lan2) entered disabled state
+[   22.032552] mt7530-mdio mdio-bus:1f lan2: entered allmulticast mode
+[   22.040425] mt7530-mdio mdio-bus:1f lan2: entered promiscuous mode
+[   22.055428] mt7530-mdio mdio-bus:1f lan3: configuring for phy/gmii link mode
+[   22.572602] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   22.581745] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   22.590219] br-lan: port 3(lan3) entered blocking state
+[   22.595501] br-lan: port 3(lan3) entered disabled state
+[   22.600789] mt7530-mdio mdio-bus:1f lan3: entered allmulticast mode
+[   22.609204] mt7530-mdio mdio-bus:1f lan3: entered promiscuous mode
+[   22.625498] mt7530-mdio mdio-bus:1f lan4: configuring for phy/gmii link mode
+[   22.633517] br-lan: port 4(lan4) entered blocking state
+[   22.638751] br-lan: port 4(lan4) entered disabled state
+[   22.644066] mt7530-mdio mdio-bus:1f lan4: entered allmulticast mode
+[   22.652667] mt7530-mdio mdio-bus:1f lan4: entered promiscuous mode
+[   22.668421] mt7530-mdio mdio-bus:1f lan5: configuring for phy/gmii link mode
+[   23.145604] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   23.154649] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   23.184577] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   23.193606] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   23.202046] br-lan: port 5(lan5) entered blocking state
+[   23.207256] br-lan: port 5(lan5) entered disabled state
+[   23.212504] mt7530-mdio mdio-bus:1f lan5: entered allmulticast mode
+[   23.220892] mt7530-mdio mdio-bus:1f lan5: entered promiscuous mode
+[   23.348552] mt7530-mdio mdio-bus:1f lan1: Link is Up - 2.5Gbps/Full - flow control rx/tx
+[   23.480548] mtk_soc_eth 15100000.ethernet eth1: PHY [mdio-bus:01] driver [RTL8221B-VB-CG 2.5Gbps PHY (C45)] (irq=61)
+[   23.491307] mtk_soc_eth 15100000.ethernet eth1: configuring for phy/2500base-x link mode
+[   23.532388] br-lan: port 1(lan1) entered blocking state
+[   23.537631] br-lan: port 1(lan1) entered forwarding state
+[   23.556459] br-lan: port 1(lan1) entered disabled state
+[   23.561996] mt7530-mdio mdio-bus:1f lan1: Link is Down
+[   24.102783] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   24.111656] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   24.306923] mt7530-mdio mdio-bus:1f lan4: Link is Up - 100Mbps/Full - flow control rx/tx
+[   24.632527] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   24.641386] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   25.125892] mt7530-mdio mdio-bus:1f lan3: Link is Up - 1Gbps/Full - flow control rx/tx
+[   25.160745] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   25.169594] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   25.186974] br-lan: port 4(lan4) entered blocking state
+[   25.192252] br-lan: port 4(lan4) entered forwarding state
+[   25.199328] br-lan: port 3(lan3) entered blocking state
+[   25.204614] br-lan: port 3(lan3) entered forwarding state
+[   25.685603] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   25.694476] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   26.209759] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   26.218649] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   26.285442] mt7530-mdio mdio-bus:1f lan5: Link is Up - 1Gbps/Full - flow control rx/tx
+[   26.450532] mtk_soc_eth 15100000.ethernet eth1: Link is Up - 1Gbps/Full - flow control rx/tx
+[   26.742522] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   26.751386] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   27.093613] mt7530-mdio mdio-bus:1f lan1: Link is Up - 2.5Gbps/Full - flow control rx/tx
+[   27.272524] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   27.281390] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   27.292463] br-lan: port 5(lan5) entered blocking state
+[   27.297703] br-lan: port 5(lan5) entered forwarding state
+[   27.303597] br-lan: port 1(lan1) entered blocking state
+[   27.308828] br-lan: port 1(lan1) entered forwarding state
+[   27.832525] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   27.835598] MediaTek MT7531 PHY mt7530-0:00: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   27.841570] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   27.850412] MediaTek MT7531 PHY mt7530-0:00: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   27.859034] mt7530-mdio mdio-bus:1f lan3: Link is Down
+[   27.874265] br-lan: port 3(lan3) entered disabled state
+[   28.372525] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   28.381573] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   28.902585] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   28.911677] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   29.442530] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   29.451579] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   29.968681] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   29.977727] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   30.496630] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   30.505675] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   31.026628] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   31.035672] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   31.559206] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   31.568252] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   32.092789] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   32.094826] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   32.101835] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   32.110858] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   32.127882] mt7530-mdio mdio-bus:1f lan4: Link is Down
+[   32.134539] mt7530-mdio mdio-bus:1f lan2: Link is Up - 1Gbps/Full - flow control rx/tx
+[   32.639792] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   32.648841] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   32.657486] br-lan: port 4(lan4) entered disabled state
+[   33.170991] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   33.180024] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   33.188549] br-lan: port 2(lan2) entered blocking state
+[   33.193773] br-lan: port 2(lan2) entered forwarding state
+[   33.706888] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   33.715935] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   34.219021] mt7530-mdio mdio-bus:1f lan3: Link is Up - 1Gbps/Full - flow control rx/tx
+[   34.240893] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   34.249917] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   34.772184] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   34.781045] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   35.302528] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   35.311399] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   35.319874] br-lan: port 3(lan3) entered blocking state
+[   35.325089] br-lan: port 3(lan3) entered forwarding state
+[   35.826897] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   35.835812] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   36.354584] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   36.363455] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   36.369442] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   36.380895] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   36.389395] br-lan: port 5(lan5) entered disabled state
+[   36.389498] mt7530-mdio mdio-bus:1f lan5: Link is Down
+[   36.898672] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   36.907710] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   37.432530] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   37.441401] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   37.961170] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   37.970031] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   38.492529] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x150
+[   38.501489] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   38.997438] mt7530-mdio mdio-bus:1f lan4: Link is Up - 100Mbps/Full - flow control rx/tx
+[   39.022523] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x150
+[   39.031487] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   39.042805] br-lan: port 4(lan4) entered blocking state
+[   39.048049] br-lan: port 4(lan4) entered forwarding state
+[   39.567659] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   39.576527] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   39.586619] rtl8192cu: MAC auto ON okay!
+[   39.611812] rtl8192cu: Tx queue select: 0x05
+[   40.516561] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   40.525434] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   41.046127] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   41.054998] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   41.065763] mtk_soc_eth 15100000.ethernet eth1: Link is Down
+[   41.068193] mt7530-mdio mdio-bus:1f lan1: Link is Down
+[   41.076652] br-lan: port 1(lan1) entered disabled state
+[   41.598938] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   41.607984] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   41.616605] mt7530-mdio mdio-bus:1f lan3: Link is Down
+[   42.122556] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   42.131607] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   42.146813] br-lan: port 3(lan3) entered disabled state
+[   42.659993] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   42.668865] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   43.192548] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   43.201418] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   43.273463] mt7530-mdio mdio-bus:1f lan5: Link is Up - 1Gbps/Full - flow control rx/tx
+[   43.722071] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x50
+[   43.730939] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   43.739492] br-lan: port 5(lan5) entered blocking state
+[   43.744736] br-lan: port 5(lan5) entered forwarding state
+[   44.221296] mtk_soc_eth 15100000.ethernet eth1: Link is Up - 1Gbps/Full - flow control rx/tx
+[   44.262794] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   44.271832] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   44.280432] mt7530-mdio mdio-bus:1f lan4: Link is Down
+[   44.286186] br-lan: port 4(lan4) entered disabled state
+[   44.606826] mt7530-mdio mdio-bus:1f lan1: Link is Up - 2.5Gbps/Full - flow control rx/tx
+[   44.786627] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   44.795663] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   44.804249] br-lan: port 1(lan1) entered blocking state
+[   44.809460] br-lan: port 1(lan1) entered forwarding state
+[   45.324391] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   45.333451] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   45.815472] mt7530-mdio mdio-bus:1f lan3: Link is Up - 1Gbps/Full - flow control rx/tx
+[   45.852521] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   45.861552] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   46.381256] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   46.383812] MediaTek MT7531 PHY mt7530-0:02: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   46.390295] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   46.399318] MediaTek MT7531 PHY mt7530-0:02: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   46.407803] br-lan: port 3(lan3) entered blocking state
+[   46.407922] mt7530-mdio mdio-bus:1f lan5: Link is Down
+[   46.426476] br-lan: port 3(lan3) entered forwarding state
+[   46.432005] br-lan: port 5(lan5) entered disabled state
+[   46.914580] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   46.923622] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   47.441002] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x8010
+[   47.450042] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   47.973046] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   47.982088] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   47.999530] mt7530-mdio mdio-bus:1f lan1: Link is Down
+[   48.005208] br-lan: port 1(lan1) entered disabled state
+[   48.015102] mtk_soc_eth 15100000.ethernet eth1: Link is Down
+[   48.509215] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   48.518315] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   48.572023] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   48.581050] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   48.589654] mt7530-mdio mdio-bus:1f lan3: Link is Down
+[   49.094928] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   49.103970] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   49.622021] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   49.631056] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   49.647083] br-lan: port 3(lan3) entered disabled state
+[   49.653025] br-lan: port 6(phy1-ap0) entered blocking state
+[   49.658626] br-lan: port 6(phy1-ap0) entered disabled state
+[   49.664267] mt798x-wmac 18000000.wifi phy1-ap0: entered allmulticast mode
+[   49.671272] mt798x-wmac 18000000.wifi phy1-ap0: entered promiscuous mode
+[   50.195737] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   50.204782] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   50.737086] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x8050
+[   50.742568] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   50.746197] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   50.755024] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   51.094096] mtk_soc_eth 15100000.ethernet eth1: Link is Up - 1Gbps/Full - flow control rx/tx
+[   51.282644] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   51.291741] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   51.578134] mt7530-mdio mdio-bus:1f lan1: Link is Up - 2.5Gbps/Full - flow control rx/tx
+[   51.812567] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   51.821607] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   51.831290] br-lan: port 1(lan1) entered blocking state
+[   51.836528] br-lan: port 1(lan1) entered forwarding state
+[   51.847405] mt7530-mdio mdio-bus:1f lan1: Link is Down
+[   51.873675] mt7530-mdio mdio-bus:1f lan4: Link is Up - 100Mbps/Full - flow control rx/tx
+[   51.922437] br-lan: port 7(phy0-ap0) entered blocking state
+[   51.928046] br-lan: port 7(phy0-ap0) entered disabled state
+[   51.933699] mt798x-wmac 18000000.wifi phy0-ap0: entered allmulticast mode
+[   51.940730] mt798x-wmac 18000000.wifi phy0-ap0: entered promiscuous mode
+[   51.947598] br-lan: port 7(phy0-ap0) entered blocking state
+[   51.953222] br-lan: port 7(phy0-ap0) entered forwarding state
+[   51.959752] br-lan: port 1(lan1) entered disabled state
+[   51.965269] br-lan: port 4(lan4) entered blocking state
+[   51.970532] br-lan: port 4(lan4) entered forwarding state
+[   51.999970] mtk_soc_eth 15100000.ethernet eth1: Link is Down
+[   52.353577] MediaTek MT7531 PHY mt7530-0:03: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   52.362528] MediaTek MT7531 PHY mt7530-0:03: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   52.515607] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   52.524480] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   53.048985] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   53.057896] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   53.066780] br-lan: port 7(phy0-ap0) entered disabled state
+[   53.590739] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   53.599604] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   54.122602] MediaTek MT7531 PHY mt7530-0:01: extend_an_new_lp_cnt_limit: Training Indicator: 0x10
+[   54.131549] MediaTek MT7531 PHY mt7530-0:01: mtk_gphy_cl22_read_status: counter limit ret: 0
+[   54.205716] mt7530-mdio mdio-bus:1f lan5: Link is Up - 1Gbps/Full - flow control rx/tx
+[   54.205763] br-lan: port 5(lan5) entered blocking state
+[   54.218877] br-lan: port 5(lan5) entered forwarding state
+[   54.366725] br-lan: port 7(phy0-ap0) entered blocking state
+[   54.372358] br-lan: port 7(phy0-ap0) entered forwarding state
+[   55.942995] mtk_soc_eth 15100000.ethernet eth1: Link is Up - 1Gbps/Full - flow control rx/tx
+[   56.416801] mt7530-mdio mdio-bus:1f lan3: Link is Up - 1Gbps/Full - flow control rx/tx
+[   56.416827] br-lan: port 3(lan3) entered blocking state
+[   56.429930] br-lan: port 3(lan3) entered forwarding state
+[   56.823142] mt7530-mdio mdio-bus:1f lan1: Link is Up - 2.5Gbps/Full - flow control rx/tx
+[   56.823169] br-lan: port 1(lan1) entered blocking state
+[   56.836448] br-lan: port 1(lan1) entered forwarding state
+[  131.991397] br-lan: port 6(phy1-ap0) entered blocking state
+[  131.996986] br-lan: port 6(phy1-ap0) entered forwarding state
