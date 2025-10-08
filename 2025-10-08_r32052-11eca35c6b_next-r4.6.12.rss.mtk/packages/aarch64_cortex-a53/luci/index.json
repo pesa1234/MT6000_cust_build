@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "liblucihttp-ucode": "2023.03.15~9b5b683f-r1",
+    "liblucihttp": "2023.03.15~9b5b683f-r1",
+    "luci": "25.004.31611~0f09054",
+    "luci-app-advanced": "1.0.3-r1",
+    "luci-app-firewall": "25.185.47025~21d9df2",
+    "luci-app-ksmbd": "25.004.31611~0f09054",
+    "luci-app-package-manager": "25.180.63438~8b5dfab",
+    "luci-app-zerotier": "25.004.31611~0f09054",
+    "luci-base": "25.281.71415~a82a390",
+    "luci-light": "25.004.31611~0f09054",
+    "luci-mod-admin-full": "25.004.31611~0f09054",
+    "luci-mod-network": "25.278.37316~ad908d7",
+    "luci-mod-status": "25.275.49372~18786c5",
+    "luci-mod-system": "25.159.68111~65bdfc6",
+    "luci-proto-ipv6": "25.247.44965~183ab68",
+    "luci-proto-ppp": "25.009.71487~a88d4af",
+    "luci-theme-bootstrap": "25.275.47511~788e470",
+    "rpcd-mod-luci": "20240305-r1",
+    "rpcd-mod-rrdns": "20170710",
+    "ucode-mod-html": "1"
+  }
+}
