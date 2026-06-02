@@ -1,0 +1,1784 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:1941b874-6972-4223-8169-3579caa11d3a",
+  "version": "1",
+  "metadata": {
+    "timestamp": "2026-06-02T15:54:35Z"
+  },
+  "components": [
+    {
+      "name": "aeonsemi-as21xxx-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "airoha-en8811h-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "apk-openssl",
+      "version": "3.0.5-r3",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ar3k-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "ath9k-htc-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "blkid",
+      "version": "2.42.1-r1",
+      "cpe": "cpe:/a:kernel:util-linux",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bnx2-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "bnx2x-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "brcmfmac-firmware-usb",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "bridger",
+      "version": "2026.03.23~de7e00a5",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "busybox",
+      "version": "1.37.0-r6",
+      "cpe": "cpe:/a:busybox:busybox",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ca-bundle",
+      "version": "20260223-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "name": "MPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "carl9170-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "chat",
+      "version": "2.5.2-r3",
+      "cpe": "cpe:/a:point-to-point_protocol_project:point-to-point_protocol",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-4-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dnsmasq-full",
+      "version": "2.92-r2",
+      "cpe": "cpe:/a:thekelleys:dnsmasq",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "e100-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "e2fsprogs",
+      "version": "1.47.4-r1",
+      "cpe": "cpe:/a:e2fsprogs_project:e2fsprogs",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "edgeport-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "eip197-mini-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "ethtool",
+      "version": "7.0-r1",
+      "cpe": "cpe:/a:kernel:ethtool",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "f2fsck",
+      "version": "1.16.0-r4",
+      "cpe": "cpe:/a:f2fs-tools_project:f2fs-tools",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "firewall4",
+      "version": "2025.03.17~b6e51575-r2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fit-check-sign",
+      "version": "2026.04-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0+"
+          }
+        }
+      ]
+    },
+    {
+      "name": "getrandom",
+      "version": "2025.10.30~6f78fa49-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "hostapd-common",
+      "version": "2026.04.02~b004de0b-r1",
+      "cpe": "cpe:/a:w1.fi:hostapd",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "hostapd-utils",
+      "version": "2026.04.02~b004de0b-r1",
+      "cpe": "cpe:/a:w1.fi:hostapd",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ip-full",
+      "version": "6.18.0-r2",
+      "cpe": "cpe:/a:iproute2_project:iproute2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ip-tiny",
+      "version": "6.18.0-r2",
+      "cpe": "cpe:/a:iproute2_project:iproute2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ipset",
+      "version": "7.24-r1",
+      "cpe": "cpe:/a:netfilter:ipset",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "iw",
+      "version": "6.17-r1",
+      "cpe": "cpe:/a:kernel:iw",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "iwinfo",
+      "version": "2026.05.26~66bdd1a0-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "jansson4",
+      "version": "2.15.0-r1",
+      "cpe": "cpe:/a:jansson_project:jansson",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "jshn",
+      "version": "2026.05.23~1fe93d2f-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "jsonfilter",
+      "version": "2026.03.16~b9034210-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libblkid1",
+      "version": "2.42.1-r1",
+      "cpe": "cpe:/a:kernel:util-linux",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libblobmsg-json20260523",
+      "version": "2026.05.23~1fe93d2f-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libbpf1",
+      "version": "1.7.0-r1",
+      "cpe": "cpe:/a:libbpf_project:libbpf",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        },
+        {
+          "license": {
+            "name": "OR"
+          }
+        },
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libbz2-1.0",
+      "version": "1.0.8-r1",
+      "cpe": "cpe:/a:bzip:bzip2",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "bzip2-1.0.8"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libcap",
+      "version": "2.69-r1",
+      "cpe": "cpe:/a:libcap_project:libcap",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libcomerr0",
+      "version": "1.47.4-r1",
+      "cpe": "cpe:/a:e2fsprogs_project:e2fsprogs",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libe2p2",
+      "version": "1.47.4-r1",
+      "cpe": "cpe:/a:e2fsprogs_project:e2fsprogs",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libelf1",
+      "version": "0.192-r2",
+      "cpe": "cpe:/a:elfutils_project:elfutils",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        },
+        {
+          "license": {
+            "name": "LGPL-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libext2fs2",
+      "version": "1.47.4-r1",
+      "cpe": "cpe:/a:e2fsprogs_project:e2fsprogs",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libf2fs6",
+      "version": "1.16.0-r4",
+      "cpe": "cpe:/a:f2fs-tools_project:f2fs-tools",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libgmp10",
+      "version": "6.3.0-r2",
+      "cpe": "cpe:/a:gmplib:gmp",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libipset13",
+      "version": "7.24-r1",
+      "cpe": "cpe:/a:netfilter:ipset",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libiwinfo-data",
+      "version": "2026.05.26~66bdd1a0-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libiwinfo20230701",
+      "version": "2026.05.26~66bdd1a0-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libjson-c5",
+      "version": "0.18-r1",
+      "cpe": "cpe:/a:json-c:json-c",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libjson-script20260523",
+      "version": "2026.05.23~1fe93d2f-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "liblua5.1.5",
+      "version": "5.1.5-r11",
+      "cpe": "cpe:/a:lua:lua",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libmbedtls21",
+      "version": "3.6.6-r2",
+      "cpe": "cpe:/a:arm:mbed_tls",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libmnl0",
+      "version": "1.0.5-r2",
+      "cpe": "cpe:/a:netfilter:libmnl",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1+"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libncurses6",
+      "version": "6.4-r3",
+      "cpe": "cpe:/a:gnu:ncurses",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libnetfilter-conntrack3",
+      "version": "1.1.0-r1",
+      "cpe": "cpe:/a:netfilter:libnetfilter_conntrack",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libnettle8",
+      "version": "3.10.2-r1",
+      "cpe": "cpe:/a:nettle_project:nettle",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libnfnetlink0",
+      "version": "1.0.2-r1",
+      "cpe": "cpe:/a:netfilter:libnfnetlink",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0+"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libnftnl11",
+      "version": "1.3.1-r1",
+      "cpe": "cpe:/a:netfilter:libnftnl",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libnl-core200",
+      "version": "3.12.0-r1",
+      "cpe": "cpe:/a:libnl_project:libnl",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libnl-genl200",
+      "version": "3.12.0-r1",
+      "cpe": "cpe:/a:libnl_project:libnl",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libnl-tiny1",
+      "version": "2025.12.02~40493a65-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libopenssl-conf",
+      "version": "3.5.6-r1",
+      "cpe": "cpe:/a:openssl:openssl",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libopenssl-legacy",
+      "version": "3.5.6-r1",
+      "cpe": "cpe:/a:openssl:openssl",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libopenssl3",
+      "version": "3.5.6-r1",
+      "cpe": "cpe:/a:openssl:openssl",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libpcap1",
+      "version": "1.10.6-r1",
+      "cpe": "cpe:/a:tcpdump:libpcap",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libpopt0",
+      "version": "1.19-r1",
+      "cpe": "cpe:/a:popt_project:popt",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libreadline8",
+      "version": "8.3-r1",
+      "cpe": "cpe:/a:gnu:readline",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libss2",
+      "version": "1.47.4-r1",
+      "cpe": "cpe:/a:e2fsprogs_project:e2fsprogs",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libsysfs2",
+      "version": "2.1.0-r4",
+      "cpe": "cpe:/a:sysfsutils_project:sysfsutils",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libubox20260523",
+      "version": "2026.05.23~1fe93d2f-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libubus-lua",
+      "version": "2026.05.23~795b32bb-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libubus20260523",
+      "version": "2026.05.23~795b32bb-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libuci20250120",
+      "version": "2025.12.02~66127cd7-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libuclient20201210",
+      "version": "2026.02.20~7a0aa2e4-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libucode20230711",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libudebug",
+      "version": "2026.01.16~875e1a7a",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libusb-1.0-0",
+      "version": "1.0.29-r1",
+      "cpe": "cpe:/a:libusb:libusb",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libustream-openssl20201210",
+      "version": "2026.03.01~99f1c0db-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libuuid1",
+      "version": "2.42.1-r1",
+      "cpe": "cpe:/a:kernel:util-linux",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libxdp163",
+      "version": "1.6.3-r2",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        },
+        {
+          "license": {
+            "name": "OR"
+          }
+        },
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "logd",
+      "version": "2025.10.30~6f78fa49-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lua",
+      "version": "5.1.5-r11",
+      "cpe": "cpe:/a:lua:lua",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mkf2fs",
+      "version": "1.16.0-r4",
+      "cpe": "cpe:/a:f2fs-tools_project:f2fs-tools",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mt7601u-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "mt7986-wo-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "mwifiex-pcie-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "mwifiex-sdio-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "mwl8k-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "netifd",
+      "version": "2026.04.23~e45b890f-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "nftables-json",
+      "version": "1.1.6-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "odhcp6c",
+      "version": "2026.01.25~24485bb4-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "odhcpd-ipv6only",
+      "version": "2026.03.16~160e5fa3-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "openwrt-keyring",
+      "version": "2025.12.10~f0670054-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ppp",
+      "version": "2.5.2-r3",
+      "cpe": "cpe:/a:point-to-point_protocol_project:point-to-point_protocol",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-4-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ppp-mod-pppoe",
+      "version": "2.5.2-r3",
+      "cpe": "cpe:/a:point-to-point_protocol_project:point-to-point_protocol",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-4-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "procd",
+      "version": "2026.03.25~cd7a4e5f-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "procd-seccomp",
+      "version": "2026.03.25~cd7a4e5f-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "procd-ujail",
+      "version": "2026.03.25~cd7a4e5f-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "r8152-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "r8169-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "resolveip",
+      "version": "2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rpcd",
+      "version": "2025.12.03~ffb9961c-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rpcd-mod-file",
+      "version": "2025.12.03~ffb9961c-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rpcd-mod-iwinfo",
+      "version": "2025.12.03~ffb9961c-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rpcd-mod-rpcsys",
+      "version": "2025.12.03~ffb9961c-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rpcd-mod-ucode",
+      "version": "2025.12.03~ffb9961c-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rs9113-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rt2800-pci-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rt2800-usb-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rt61-pci-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rt73-usb-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8192ce-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8192cu-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8192de-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8192du-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8192se-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8723be-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8723de-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8812a-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8814a-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8821a-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8821ae-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8821ce-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8822be-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8822ce-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8851be-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8852ae-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8852be-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8852ce-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "rtl8922ae-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "ss",
+      "version": "6.18.0-r2",
+      "cpe": "cpe:/a:iproute2_project:iproute2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "sysfsutils",
+      "version": "2.1.0-r4",
+      "cpe": "cpe:/a:sysfsutils_project:sysfsutils",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tc-tiny",
+      "version": "6.18.0-r2",
+      "cpe": "cpe:/a:iproute2_project:iproute2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "terminfo",
+      "version": "6.4-r3",
+      "cpe": "cpe:/a:gnu:ncurses",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ubox",
+      "version": "2025.10.30~6f78fa49-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ubus",
+      "version": "2026.05.23~795b32bb-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ubusd",
+      "version": "2026.05.23~795b32bb-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uci",
+      "version": "2025.12.02~66127cd7-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uclient-fetch",
+      "version": "2026.02.20~7a0aa2e4-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-digest",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-fs",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-log",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-math",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-nl80211",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-rtnl",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-ubus",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-uci",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-uloop",
+      "version": "2026.04.24~0beaa9dc-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uhttpd",
+      "version": "2026.05.21~1b624f8f-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "uhttpd-mod-ubus",
+      "version": "2026.05.21~1b624f8f-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "urandom-seed",
+      "version": "3",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "urngd",
+      "version": "2025.10.03~f17e33d9-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "usign",
+      "version": "2025.10.03~c4c72b1b-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "wifi-scripts",
+      "version": "1.0-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "wil6210-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "wireguard-tools",
+      "version": "1.0.20260223-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "wireless-regdb",
+      "version": "2026.03.18-r1",
+      "type": "firmware",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "wl12xx-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "wl18xx-firmware",
+      "version": "20260529-r1",
+      "type": "firmware"
+    },
+    {
+      "name": "wpad-openssl",
+      "version": "2026.04.02~b004de0b-r1",
+      "cpe": "cpe:/a:w1.fi:hostapd",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "name": "wwan",
+      "version": "2019.04.29-r7",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "xdp-filter",
+      "version": "1.6.3-r2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "xdp-loader",
+      "version": "1.6.3-r2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "xdpdump",
+      "version": "1.6.3-r2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.2-r1",
+      "cpe": "cpe:/a:zlib:zlib",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "Zlib"
+          }
+        }
+      ]
+    }
+  ]
+}
