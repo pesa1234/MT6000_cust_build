@@ -1,0 +1,538 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:0f65f038-0db5-4891-bbc4-9eec6b8bce17",
+  "version": "1",
+  "metadata": {
+    "timestamp": "2026-08-29T15:16:50Z"
+  },
+  "components": [
+    {
+      "name": "liblucihttp-lua",
+      "version": "2023.03.15~9b5b683f-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "liblucihttp-ucode",
+      "version": "2023.03.15~9b5b683f-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "liblucihttp0",
+      "version": "2023.03.15~9b5b683f-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci",
+      "version": "26.039.78094~a0bad5e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-adblock",
+      "version": "4.5.7-r3",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-adblock-fast",
+      "version": "1.2.4-r4",
+      "cpe": "cpe:/a:mossdef:luci-app-adblock-fast",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "AGPL-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-advanced",
+      "version": "1.1.0-r2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-attendedsysupgrade",
+      "version": "26.210.28565~74aacfb",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-firewall",
+      "version": "26.149.81679~a84a7ce",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-irqbalance",
+      "version": "26.237.54178~13d2926",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-ksmbd",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-minidlna",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-nlbwmon",
+      "version": "26.222.44595~1c70b2b",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-nordvpnlite",
+      "version": "1.1.0-r2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-package-manager",
+      "version": "26.201.70013~a53c15d",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-pbr",
+      "version": "1.2.3-r91",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "AGPL-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-samba4",
+      "version": "26.178.85210~2a58b5c",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-sqm",
+      "version": "26.215.35902~6876211",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-tailscale-community",
+      "version": "26.162.29621~507ab5e",
+      "type": "application"
+    },
+    {
+      "name": "luci-app-vnstat2",
+      "version": "26.147.46187~4a1a6bd",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-app-zerotier",
+      "version": "26.037.80570~769485e",
+      "type": "application"
+    },
+    {
+      "name": "luci-base",
+      "version": "26.220.45065~e3f1244",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-compat",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-lib-base",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-lib-chartjs",
+      "version": "26.047.84407~d28ebe1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-lib-ip",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-lib-jsonc",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-lib-nixio",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-lib-uqr",
+      "version": "26.047.02577~fbaa2c6",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-light",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-lua-runtime",
+      "version": "26.209.73686~baaea08",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-mod-admin-full",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-mod-network",
+      "version": "26.220.45065~e3f1244",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-mod-status",
+      "version": "26.215.47089~f79b612",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-mod-system",
+      "version": "26.205.35795~96a255d",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-proto-3g",
+      "version": "26.047.02577~50a8d53",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-proto-ipv6",
+      "version": "26.202.75735~4a78ecc",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-proto-openvpn",
+      "version": "26.201.35212~e276d39",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-proto-ppp",
+      "version": "26.037.80570~769485e",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-proto-wireguard",
+      "version": "26.177.40560~176a487",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "luci-theme-bootstrap",
+      "version": "26.219.84805~084fae3",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rpcd-mod-luci",
+      "version": "20240305-r1",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "rpcd-mod-rrdns",
+      "version": "20170710",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-html",
+      "version": "1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ucode-mod-lua",
+      "version": "1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC"
+          }
+        }
+      ]
+    }
+  ]
+}
